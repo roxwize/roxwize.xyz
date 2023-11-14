@@ -1,0 +1,21 @@
+extends site.pug
+
+block head
+  link(rel="stylesheet", href="/static/css/music.css")
+
+block append content
+  #albums
+    each release in data
+      .release
+        .release-info
+          .release-cover(style=`background-image:url(../static/img/albumcovers/${release.databases.musicbrainz}.jpg)`)
+          .release-main
+            .release-title #{release.title} (#{release.releaseYear})
+            .release-artist= release.artist
+          .release-listen-date= release.listenedOn
+        .release-description
+          .release-review
+            p(style="margin-top:0")= release.description
+            a(href=`https://musicbrainz.org/release/${release.databases.musicbrainz}`) [mb]&nbsp;
+            a(href=`https://discogs.com/master/${release.databases.discogs}`) [discogs]
+          .release-rating #{release.rating} / 7

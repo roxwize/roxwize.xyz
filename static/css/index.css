@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@font-face {
+    font-family: 't3t3';
+    src: url('../fonts/t3t3.woff2') format('woff2'),
+    url('/static/fonts/t3t3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    font-size: 9pt;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--bg);
+    color: var(--fg);
+}
+a {
+    text-decoration: none;
+    color: var(--a);
+}
+a:hover {
+    font-weight: normal;
+}
+#content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#logo {
+    font-family: "t3t3", monospace;
+    font-size: 60pt;
+}
+
+@font-face {
+    font-family: 't3t3';
+    src: url('/static/fonts/t3t3.woff2') format('woff2'),
+    url('/static/fonts/t3t3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
