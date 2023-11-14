@@ -53,11 +53,18 @@
   justify-content: flex-end;
 }
 .release-review {
-  flex-basis: 75%;
+  flex: 1 1 auto;
 }
 .release-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   align-self: flex-end;
   justify-self: baseline;
   font-size: x-large;
   font-weight: bold;
+}
+.release-favtrack {
+  font-size: small;
+  font-weight: normal;
 }

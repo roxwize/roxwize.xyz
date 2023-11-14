@@ -1,4 +1,11 @@
-ul
-  each link, label in n
-    li
-      a(href=link)= label
+mixin level(list)
+  ul
+    each link, label in list
+      li
+        if typeof(link) === "string"
+          a(href=link)= label
+        else
+          strong= label
+          +level(link)
+
++level(n)

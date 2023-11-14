@@ -1,15 +1,31 @@
 [
   {
+    "title": "Draft 7.30",
+    "artist": "Autechre",
+    "rating": "6.5",
+    "favoriteTrack": "RENIFORM PULS",
+    "description": "A foreboding and futuristic-sounding work that is as ominous as it is strangely nostalgic. This album contains some of the most striking song titles I've seen on an Autechre release, and the songs are just as heavy-hitting, fluctuating between quaint, subtle optimism in the first half of IV VV IV VV VIII, and unabashed percussion-centric mayhem in XYLIN ROOM and V-PROC. This album gives me the strongest sense of deja vu, and I've become very attached to it for how charming the songs are, despite their perceived coldness and inhumanity. It's like the playfulness of Quaristice mixed with the bleakness of Confield.",
+    "listenedOn": "November 14, 2023",
+    "releaseYear": "2003",
+    "cover": "http://coverartarchive.org/release/fdfc01e4-eeb3-4c9e-8d34-83c3f04993b3/3785945148-500.jpg",
+    "databases": {
+      "discogs": "960",
+      "musicbrainz": "1a6d6f6e-2988-3272-9e29-2d7edd258015",
+      "wikidata": "Q3038579"
+    }
+  },
+  {
     "title": "L-event",
     "artist": "Autechre",
     "rating": "5",
+    "favoriteTrack": "tac Lacora",
     "description": "A very dark and noisy companion LP to Exai that offers the same bombastic-as-shit first impression as Gantz Graf while being as inaccessible as Untilted. tac Lacora has become one of my favorite tracks from them with how frantic and all-over-the-place it is. It closes on newbound, which sounds a lot more friendly.",
     "listenedOn": "November 12, 2023",
     "releaseYear": "2013",
     "cover": "https://coverartarchive.org/release/a117a1c8-7650-4d22-b254-94fe9ab33f7a/5397384614-500.jpg",
     "databases": {
       "discogs": "606561",
-      "musicbrainz": "a117a1c8-7650-4d22-b254-94fe9ab33f7a",
+      "musicbrainz": "504ff908-9093-4cba-bb63-666c32d221bf",
       "wikidata": "Q14928303"
     }
   }

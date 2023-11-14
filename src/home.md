@@ -1,5 +1,6 @@
 ---
   title: Home
+  summary: This is the home of roxwize ...
 ---
 Hi, this is <span class="t3t3">roxwize</span>. I am a [purple-ish cat-rabbit](me.html) who sucks ass at programming. I love everything and everything loves me back.
 

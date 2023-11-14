@@ -55,6 +55,9 @@ a:hover::after {
     list-style: none;
     padding-inline-start: 0;
 }
+#sidebar ul li {
+    padding-inline-start: 1em;
+}
 #content {
     width: 40%;
     padding: 2em;

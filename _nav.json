@@ -1,4 +1,6 @@
 {
-  "Home": "/site/home.html",
-  "Music": "/site/music.html"
+  "home": "/site/home.html",
+  "blog": {
+    "music": "/site/music.html"
+  }
 }
