@@ -10,8 +10,8 @@ const changes = [];
 
 const render = async (filePath) => {
   console.log(`==\t\treading ${filePath}`);
-  const relativePath = filePath.replace(/[^\\]+\\/, "");
-  const dir = relativePath.match(/^(?:[^\\]+\\)+/);
+  const relativePath = filePath.replace(/[^\/]+\//, "");
+  const dir = relativePath.match(/^(?:[^\/]+\/)+/);
   if (dir) {
     await fs.mkdir(`./site/${dir[0]}`, { recursive: true });
   }
@@ -36,7 +36,7 @@ const render = async (filePath) => {
     });
   }
   await fs.writeFile(
-    `./site/${relativePath.replace(/\.[^\\.]+$/, "")}.html`,
+    `./site/${relativePath.replace(/\.[^\/.]+$/, "")}.html`,
     out
   );
 }
