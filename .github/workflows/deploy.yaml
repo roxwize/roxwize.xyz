@@ -25,6 +25,6 @@ jobs:
       - name: Deploy to Neocities
         uses: bcomnes/deploy-to-neocities@v1.1.20
         with:
-          key: ${{ secrets.NEOCITIES_API_KEY }}
+          api_token: ${{ secrets.NEOCITIES_API_KEY }}
           dist_dir: site # /static/ is uploaded manually via WebDAV, this might change
           cleanup: true
