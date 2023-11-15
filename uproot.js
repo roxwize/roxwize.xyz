@@ -60,6 +60,7 @@ async function renderNavbar() {
 }
 
 const w = (async () => {
+  await fs.mkdir("public/site")
   await renderSrc();
   await renderNavbar();
   console.log("It is done");
