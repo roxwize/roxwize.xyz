@@ -30,6 +30,20 @@ a::after {
 a:hover::after {
     width: 100%;
 }
+blockquote::before {
+    content: "";
+    height: 100%;
+    width: 1px;
+    background-color: #181c3085;
+    position: absolute;
+    top: 0;
+    left: -2em;
+}
+blockquote {
+    position: relative;
+    font-style: italic;
+    color: #181c30cc;
+}
 .t3t3 {
     font-family: "t3t3", monospace;
 }
