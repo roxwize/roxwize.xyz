@@ -8,8 +8,8 @@ html(lang="en")
       meta(name="og:description", content=gm.summary)
     meta(name="theme-color", content="#896498")
     script(src="https://code.jquery.com/jquery-3.6.1.min.js")
-    link(rel="stylesheet", href="/static/css/palette.css")
-    link(rel="stylesheet", href="/static/css/main.css")
+    link(rel="stylesheet", href="../static/css/palette.css")
+    link(rel="stylesheet", href="../static/css/main.css")
     title #{title} <- roxwize
     block head
   body
@@ -23,5 +23,5 @@ html(lang="en")
 
     script(type="text/javascript").
       $(function(){
-        $("#sidebar").load("/site/_nav.html")
+        $("#sidebar").load("./_nav.html")
       });

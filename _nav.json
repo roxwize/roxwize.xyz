@@ -1,6 +1,6 @@
 {
-  "home": "/site/home.html",
+  "home": "./home.html",
   "blog": {
-    "music": "/site/music.html"
+    "music": "./music.html"
   }
 }

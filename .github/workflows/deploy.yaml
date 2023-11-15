@@ -26,5 +26,4 @@ jobs:
         uses: bcomnes/deploy-to-neocities@v1.1.20
         with:
           api_token: ${{ secrets.NEOCITIES_API_KEY }}
-          dist_dir: site # /static/ is uploaded manually via WebDAV, this might change
-          cleanup: true
+          dist_dir: public # /static/ is uploaded manually via WebDAV, this might change

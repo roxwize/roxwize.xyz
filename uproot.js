@@ -13,7 +13,7 @@ const render = async (filePath) => {
   const relativePath = filePath.replace(/[^\/]+\//, "");
   const dir = relativePath.match(/^(?:[^\/]+\/)+/);
   if (dir) {
-    await fs.mkdir(`./site/${dir[0]}`, { recursive: true });
+    await fs.mkdir(`./public/site/${dir[0]}`, { recursive: true });
   }
   const file = (await fs.readFile(filePath)).toString("ascii");
   const matter = gm(file);
@@ -22,21 +22,21 @@ const render = async (filePath) => {
     out = md(matter.content);
   } else if (matter.data.template) {
     const data = JSON.parse((await fs.readFile(matter.data.data)).toString("ascii"));
-    out = pug.compileFile(`./static/html/${matter.data.template}.pug`)({
+    out = pug.compileFile(`./templates/${matter.data.template}.pug`)({
       title: matter.data.title,
       gm: matter.data,
       content: md(matter.content),
       data: data
     });
   } else {
-    out = pug.compileFile("./static/html/site.pug")({
+    out = pug.compileFile("./templates/site.pug")({
       title: matter.data.title,
       gm: matter.data,
       content: md(matter.content),
     });
   }
   await fs.writeFile(
-    `./site/${relativePath.replace(/\.[^\/.]+$/, "")}.html`,
+    `./public/site/${relativePath.replace(/\.[^\/.]+$/, "")}.html`,
     out
   );
 }
@@ -55,11 +55,11 @@ async function renderNavbar() {
   // Update navbar
   console.log("====\tUpdating navbar");
   const navbar = JSON.parse((await fs.readFile("_nav.json")).toString("ascii"));
-  const out = pug.compileFile("./static/html/nav.pug")({
+  const out = pug.compileFile("./templates/nav.pug")({
     n: navbar,
   });
   console.log("==\t\tWriting to _nav.html");
-  await fs.writeFile("./site/_nav.html", out);
+  await fs.writeFile("./public/site/_nav.html", out);
 }
 
 const w = (async () => {
