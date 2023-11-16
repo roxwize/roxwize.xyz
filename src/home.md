@@ -11,5 +11,5 @@ This place serves as a repository to store that which piques my interest. Expect
 
 <blockquote>
   And at once I knew
-  <br/>&nbsp;&nbsp;I was not magificent
+  <br/>&nbsp;&nbsp;I was not magnificent
 </blockquote>
