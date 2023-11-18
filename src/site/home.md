@@ -6,6 +6,8 @@ Hi, this is <span class="t3t3">roxwize</span>. I am a [purple-ish cat-rabbit](me
 
 This place serves as a repository to store that which piques my interest. Expect me to inject my ramblings into here regularly, as well as put stuff that I've made for you to use/interact with. You can talk to/yell at me on [my Neocities profile](https://neocities.org/site/hoylecake). The source code for the website is on GitHub at [thekifake/roxwize.xyz](https://github.com/thekifake/roxwize.xyz)... but it'll probably get moved to Sourcehut at one point or another.
 
+![Website button](../static/img/button.png)
+
 <blockquote>
   And at once I knew
   <br/>&nbsp;&nbsp;I was not magnificent
