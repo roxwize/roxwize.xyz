@@ -7,8 +7,8 @@ const path = require("path");
 
 const render = async (filePath) => {
   console.log(`==\t\treading ${filePath}`);
-  const relativePath = filePath.replace(/[^\\]+\\/, "");
-  const dir = relativePath.match(/^(?:[^\\]+\\)+/);
+  const relativePath = filePath.replace(/[^\/]+\//, "");
+  const dir = relativePath.match(/^(?:[^\/]+\/)+/);
   if (dir) {
     await fs.mkdir(`./public/${dir[0]}`, { recursive: true });
   }
@@ -33,7 +33,7 @@ const render = async (filePath) => {
     });
   }
   await fs.writeFile(
-    `./public/site/${relativePath.replace(/\.[^\\.]+$/, "").replace(/[^\\]+\\/, "")}.html`, // ugh
+    `./public/site/${relativePath.replace(/\.[^\/.]+$/, "").replace(/[^\/]+\//, "")}.html`, // ugh
     out
   );
 }
@@ -66,7 +66,7 @@ async function renderBlog() {
   for (let filePath of src) {
     // There should only ever be md files in here so we don't need to concern ourself with edge cases
     // Also we do this manually instead of calling `render` I Fucking guess
-    const path = filePath.replace(/(?:[^\\]+\\)+/, "");
+    const path = filePath.replace(/(?:[^\/]+\/)+/, "");
     const file = (await fs.readFile(filePath)).toString("ascii");
   }
 }
