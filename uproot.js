@@ -7,10 +7,10 @@ const path = require("path");
 
 const render = async (filePath) => {
   console.log(`==\t\treading ${filePath}`);
-  const relativePath = filePath.replace(/[^\/]+\//, "");
-  const dir = relativePath.match(/^(?:[^\/]+\/)+/);
+  const relativePath = filePath.replace(/[^\\]+\\/, "");
+  const dir = relativePath.match(/^(?:[^\\]+\\)+/);
   if (dir) {
-    await fs.mkdir(`./public/site/${dir[0]}`, { recursive: true });
+    await fs.mkdir(`./public/${dir[0]}`, { recursive: true });
   }
   const file = (await fs.readFile(filePath)).toString("ascii");
   const matter = gm(file);
@@ -33,7 +33,7 @@ const render = async (filePath) => {
     });
   }
   await fs.writeFile(
-    `./public/site/${relativePath.replace(/\.[^\/.]+$/, "").replace(/[^\/]+\//, "")}.html`, // ugh
+    `./public/site/${relativePath.replace(/\.[^\\.]+$/, "").replace(/[^\\]+\\/, "")}.html`, // ugh
     out
   );
 }
@@ -41,7 +41,7 @@ const render = async (filePath) => {
 // Render the main Markdown pages, other stuff comes later
 async function renderSrc() {
   console.log("====\tFuuuckkk");
-  const src = await glob("./src/**/*.md");
+  const src = await glob("./src/site/**/*.md");
   for (let filePath of src) {
     if (path.extname(filePath) !== ".md") return;
     await render(filePath);
@@ -59,10 +59,23 @@ async function renderNavbar() {
   await fs.writeFile("./public/site/_nav.html", out);
 }
 
+async function renderBlog() {
+  // Really not very consistent
+  console.log("====\tThe blog is getting MADE Dude. Holy shit");
+  const src = await glob("./src/blog/*.md");
+  for (let filePath of src) {
+    // There should only ever be md files in here so we don't need to concern ourself with edge cases
+    // Also we do this manually instead of calling `render` I Fucking guess
+    const path = filePath.replace(/(?:[^\\]+\\)+/, "");
+    const file = (await fs.readFile(filePath)).toString("ascii");
+  }
+}
+
 const w = (async () => {
   await fs.mkdir("public/site")
   await renderSrc();
   await renderNavbar();
+  await renderBlog();
   console.log("It is done");
 });
 
