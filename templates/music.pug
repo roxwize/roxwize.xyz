@@ -16,8 +16,12 @@ block append content
         .release-description
           .release-review
             p(style="margin-top:0")= release.description
-            a(href=`https://musicbrainz.org/release-group/${release.databases.musicbrainz}`) [mb]&nbsp;
-            a(href=`https://discogs.com/master/${release.databases.discogs}`) [discogs]
+            if release.databases.musicbrainz
+              a(href=`https://musicbrainz.org/release-group/${release.databases.musicbrainz}`) [mb]&nbsp;
+            if release.databases.discogs
+              a(href=`https://discogs.com/master/${release.databases.discogs}`) [discogs]
+            if release.databases.bandcamp
+              a(href=release.databases.bandcamp) [bandcamp]
           .release-rating
             span #{release.rating} / 7
             span.release-favtrack.

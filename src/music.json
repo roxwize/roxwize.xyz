@@ -1,5 +1,18 @@
 [
   {
+    "title": "Nothing Perfect Is To Ever Be Found Here",
+    "artist": "super going",
+    "rating": "5",
+    "favoriteTrack": "A Lot That Happened",
+    "description": "Large, spacious, and various, this album never chooses to settle on one place for too long. In its 6 tracks spanning 58 minutes, it never managed to bore me even once, with each song going through a transformation of its own as the track progresses. It isn't perfect, and it has some minor annoyances throughout, but it's a damn good ambient album nonetheless.",
+    "listenedOn": "November 17, 2023",
+    "releaseYear": "2023",
+    "cover": "/static/albums/03.jpg",
+    "databases": {
+      "bandcamp": "https://fakenumberland.bandcamp.com/album/nothing-perfect-is-to-ever-be-found-here"
+    }
+  },
+  {
     "title": "Draft 7.30",
     "artist": "Autechre",
     "rating": "6.5",
@@ -7,11 +20,12 @@
     "description": "A foreboding and futuristic-sounding work that is as ominous as it is strangely nostalgic. This album contains some of the most striking song titles I've seen on an Autechre release, and the songs are just as heavy-hitting, fluctuating between quaint, subtle optimism in the first half of IV VV IV VV VIII, and unabashed percussion-centric mayhem in XYLIN ROOM and V-PROC. This album gives me the strongest sense of deja vu, and I've become very attached to it for how charming the songs are, despite their perceived coldness and inhumanity. It's like the playfulness of Quaristice mixed with the bleakness of Confield.",
     "listenedOn": "November 14, 2023",
     "releaseYear": "2003",
-    "cover": "http://coverartarchive.org/release/fdfc01e4-eeb3-4c9e-8d34-83c3f04993b3/3785945148-500.jpg",
+    "cover": "https://coverartarchive.org/release/fdfc01e4-eeb3-4c9e-8d34-83c3f04993b3/3785945148-500.jpg",
     "databases": {
       "discogs": "960",
       "musicbrainz": "1a6d6f6e-2988-3272-9e29-2d7edd258015",
-      "wikidata": "Q3038579"
+      "wikidata": "Q3038579",
+      "bandcamp": "https://autechre.bandcamp.com/album/draft-730"
     }
   },
   {
@@ -26,7 +40,8 @@
     "databases": {
       "discogs": "606561",
       "musicbrainz": "504ff908-9093-4cba-bb63-666c32d221bf",
-      "wikidata": "Q14928303"
+      "wikidata": "Q14928303",
+      "bandcamp": "https://autechre.bandcamp.com/album/l-event"
     }
   }
 ]
