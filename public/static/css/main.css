@@ -76,6 +76,8 @@ blockquote {
     width: 40%;
     padding: 2em;
     flex-grow: 1;
+    max-height: 90%;
+    overflow-y: auto;
 }
 #top-header {
     margin-top: 0;

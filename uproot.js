@@ -34,17 +34,17 @@ const render = async (filePath) => {
     });
   }
   await fs.writeFile(
-    `./public/site/${relativePath.replace(/\.[^\/.]+$/, "").replace(/[^\/]+\//, "")}.html`, // ugh
+    `./public/${relativePath.replace(/\.[^\/.]+$/, "")}.html`, // ugh
     out
   );
 }
 
 // Render the main Markdown pages, other stuff comes later
-async function renderSrc() {
+async function renderSite() {
   console.log("====\tFuuuckkk");
   const src = await glob("./src/**/*.md");
   for (let filePath of src) {
-    if (path.extname(filePath) !== ".md") return;
+    if (path.extname(filePath) !== ".md") continue;
     await render(filePath);
   }
 }
@@ -60,9 +60,29 @@ async function renderNavbar() {
   await fs.writeFile("./public/site/_nav.html", out);
 }
 
+async function getBlogPosts() {
+  // Get blog posts, write to json
+  console.log("====\tGetting the blog posts")
+  const src = await glob("./src/diary/*.md");
+  const a = [];
+  for (let filePath of src) {
+    if (filePath === "src\/diary\/index.md") continue;
+    const file = (await fs.readFile(filePath)).toString("ascii");
+    const matter = gm(file);
+    a.push({
+      ...matter.data,
+      path: filePath
+    });
+  }
+  console.log("==\t\t"+JSON.stringify(a));
+  await fs.writeFile(".\/src\/posts.json", JSON.stringify(a));
+}
+
 const w = (async () => {
-  await fs.mkdir("public/site")
-  await renderSrc();
+  await fs.mkdir("public/site");
+  await fs.mkdir("public/blog");
+  await getBlogPosts();
+  await renderSite();
   await renderNavbar();
   console.log("It is done");
 });
