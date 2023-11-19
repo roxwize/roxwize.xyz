@@ -6,6 +6,7 @@ const md = require("marked").parse;
 const path = require("path");
 
 const render = async (filePath) => {
+  // This is use case agnostic probably. But it's not really used at the moment so it might be a waste of space.
   console.log(`==\t\treading ${filePath}`);
   const relativePath = filePath.replace(/[^\/]+\//, "");
   const dir = relativePath.match(/^(?:[^\/]+\/)+/);
@@ -41,7 +42,7 @@ const render = async (filePath) => {
 // Render the main Markdown pages, other stuff comes later
 async function renderSrc() {
   console.log("====\tFuuuckkk");
-  const src = await glob("./src/site/**/*.md");
+  const src = await glob("./src/**/*.md");
   for (let filePath of src) {
     if (path.extname(filePath) !== ".md") return;
     await render(filePath);
@@ -59,23 +60,10 @@ async function renderNavbar() {
   await fs.writeFile("./public/site/_nav.html", out);
 }
 
-async function renderBlog() {
-  // Really not very consistent
-  console.log("====\tThe blog is getting MADE Dude. Holy shit");
-  const src = await glob("./src/blog/*.md");
-  for (let filePath of src) {
-    // There should only ever be md files in here so we don't need to concern ourself with edge cases
-    // Also we do this manually instead of calling `render` I Fucking guess
-    const path = filePath.replace(/(?:[^\/]+\/)+/, "");
-    const file = (await fs.readFile(filePath)).toString("ascii");
-  }
-}
-
 const w = (async () => {
   await fs.mkdir("public/site")
   await renderSrc();
   await renderNavbar();
-  await renderBlog();
   console.log("It is done");
 });
 
