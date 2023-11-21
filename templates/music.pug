@@ -7,22 +7,27 @@ block append content
   #albums
     each release in data
       .release
-        .release-info
-          .release-cover(style=`background-image:url('${release.cover}')`)
-          .release-main
-            .release-title #{release.title} (#{release.releaseYear})
-            .release-artist= release.artist
-          .release-listen-date= release.listenedOn
-        .release-description
-          .release-review
-            p(style="margin-top:0")= release.description
-            if release.databases.musicbrainz
-              a(href=`https://musicbrainz.org/release-group/${release.databases.musicbrainz}`) [mb]&nbsp;
-            if release.databases.discogs
-              a(href=`https://discogs.com/master/${release.databases.discogs}`) [discogs]&nbsp;
-            if release.databases.bandcamp
-              a(href=release.databases.bandcamp) [bandcamp]&nbsp;
-          .release-rating
-            span #{release.rating} / 7
-            span.release-favtrack.
-              Favorite track: #[em #{release.favoriteTrack}]
+        .release-container
+          .release-info
+            .release-cover(style=`background-image:url('/static/img/albums/${release.cover}')`)
+            .release-main
+              .release-title #{release.title} (#{release.releaseYear})
+              .release-artist= release.artist
+            .release-listen-date= release.listenedOn
+          .release-description
+            .release-review
+              p(style="margin-top:0")= release.description
+              if release.databases.musicbrainz
+                a(href=`https://musicbrainz.org/release-group/${release.databases.musicbrainz}`) [mb]&nbsp;
+              if release.databases.discogs
+                a(href=`https://discogs.com/master/${release.databases.discogs}`) [discogs]&nbsp;
+              if release.databases.bandcamp
+                a(href=release.databases.bandcamp) [bandcamp]&nbsp;
+            .release-rating
+              span #{release.rating} / 7
+              span.release-favtrack.
+                Favorite track: #[em #{release.favoriteTrack}]
+        if release.addendum
+          .release-addendum
+            .label Addendum:
+            .release-addendum-content!= release.addendum

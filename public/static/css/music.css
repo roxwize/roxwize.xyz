@@ -3,7 +3,7 @@
 }
 .release {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .release-info {
   display: flex;
@@ -54,6 +54,7 @@
 }
 .release-review {
   flex: 1 1 auto;
+  text-align: justify;
 }
 .release-rating {
   display: flex;
@@ -67,4 +68,56 @@
 .release-favtrack {
   font-size: small;
   font-weight: normal;
+}
+.release-container {
+  display: flex;
+  flex-direction: row;
+}
+.release-addendum {
+  display: flex;
+  color: var(--bg);
+}
+.release-addendum > .label {
+  width: 10rem;
+  flex-shrink: 1;
+  padding: 1rem;
+  background-color: #181c30ee;
+  border-color: var(--overlay);
+  border-width: 3px 0 3px 3px;
+  border-style: solid;
+  font-size: larger;
+  font-weight: bold;
+}
+.release-addendum-content {
+  flex-basis: 50%;
+  font-size: smaller;
+  padding-right: 0.5em;
+  text-align: justify;
+  padding: 1rem;
+  background-color: #181c30ee;
+  border-color: var(--overlay);
+  border-width: 3px 3px 3px 0;
+  border-style: solid;
+}
+
+@media (max-width: 660px) {
+  .release-container {
+    flex-direction: column;
+  }
+  .release-info {
+    width: 100%;
+  }
+  .release-description {
+    flex-basis: initial;
+  }
+  .release-addendum {
+    flex-direction: column;
+  }
+  .release-addendum > .label {
+    width: 100%;
+    border-width: 3px 3px 0 3px;
+  }
+  .release-addendum-content {
+    border-width: 0 3px 3px 3px;
+  }
 }
