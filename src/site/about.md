@@ -6,7 +6,7 @@
 ---
 Have a seat. There is milk in the fridge. Let me tell you about myself.
 
-I am a guy, I live in the United States. My main interests are [programming](#programming), [music](#music), and [art](#art). Very broad interests, yes, but with how frequently I change hobbies it's really all I have to cling onto at this point. My favorite pet is cat. mi ken toki lili e toki pona.
+I am a guy, I live in the United States. My main interests are [programming](#rh-programming), [music](#rh-music), and [art](#rh-art). Very broad interests, yes, but with how frequently I change hobbies it's really all I have to cling onto at this point. My favorite pet is cat. mi ken toki lili e toki pona.
 
 I intend to populate this area with my interests and stuff over time. Expect a lot of moving parts and spring cleaning.
 

@@ -2,7 +2,8 @@ const glob = require("glob").glob;
 const pug = require("pug");
 const fs = require("fs/promises");
 const gm = require("gray-matter");
-const md = require("marked").parse;
+const md = require("marked");
+const md_headerIds = require("marked-gfm-heading-id").gfmHeadingId;
 const path = require("path");
 
 const render = async (filePath) => {
@@ -15,22 +16,23 @@ const render = async (filePath) => {
   }
   const file = (await fs.readFile(filePath)).toString("ascii");
   const matter = gm(file);
+  md.use(md_headerIds({prefix:"rh-"}));
   let out;
   if (matter.data.nowrap) {
-    out = md(matter.content);
+    out = md.parse(matter.content);
   } else if (matter.data.template) {
     const data = JSON.parse((await fs.readFile(matter.data.data)).toString("ascii"));
     out = pug.compileFile(`./templates/${matter.data.template}.pug`)({
       title: matter.data.title,
       gm: matter.data,
-      content: md(matter.content),
+      content: md.parse(matter.content),
       data: data
     });
   } else {
     out = pug.compileFile("./templates/site.pug")({
       title: matter.data.title,
       gm: matter.data,
-      content: md(matter.content),
+      content: md.parse(matter.content),
     });
   }
   await fs.writeFile(
