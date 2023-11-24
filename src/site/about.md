@@ -23,10 +23,3 @@ I draw, sometimes. You've seen my art before, most likely. It's fun and I intend
 # Web memorabilia
 
 <a href="https://tamanotchi.world/8684c"><img src="https://tamanotchi.world/i2/8684" alt="It's tamaNOTchi! Click to feed!"></a>
-
-# Site changelog
-[Arvelie dates](https://wiki.xxiivv.com/site/arvelie.html) are used.
-
-<ul>
-  <li>00X04 &mdash; Added an about page.</li>
-<ul>
