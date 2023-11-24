@@ -28,5 +28,5 @@ I draw, sometimes. You've seen my art before, most likely. It's fun and I intend
 [Arvelie dates](https://wiki.xxiivv.com/site/arvelie.html) are used.
 
 <ul>
-  <li>00X04 &mdash; New diary entry, aboutme page</li>
+  <li>00X04 &mdash; Added an about page.</li>
 <ul>

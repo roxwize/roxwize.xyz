@@ -44,7 +44,7 @@ blockquote {
     font-style: italic;
     color: #181c30cc;
 }
-.t3t3 {
+.t3t3, h1, h2, h3, h4, h5, h6 {
     font-family: "t3t3", monospace;
 }
 
@@ -82,7 +82,6 @@ blockquote {
 #top-header {
     margin-top: 0;
     font-weight: normal;
-    font-family: "t3t3", monospace;
 }
 .hidden {
     opacity: 0;
