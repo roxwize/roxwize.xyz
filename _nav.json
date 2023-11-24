@@ -1,5 +1,6 @@
 {
   "home": "/site/home.html",
+  "about": "/site/about.html",
   "blog": {
     "thoughts": "/diary/index.html",
     "music": "/site/music.html"
