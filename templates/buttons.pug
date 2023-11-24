@@ -4,8 +4,7 @@ block append head
   link(rel="stylesheet", href="../static/css/universe.css")
 
 block append content
-  a#btn-opener(href="javascript:void(0)") Buttons!
-  #btns.hidden
+  #btns
     p.subtitle
       | If you need/want a button added, changed, or removed, contact me on my Neocities profile. Link above...
     for buttonGroup in data
@@ -17,11 +16,3 @@ block append content
     p.subtitle
       | CHECK THAT OUT!&nbsp;
       strong YAH!
-  script.
-    document.getElementById("btn-opener").addEventListener("click", function() {
-      document.getElementById("btns").classList.toggle("hidden");
-    });
-  blockquote
-    | And at once I knew
-    br
-    | &nbsp;&nbsp;I was not magnificent
