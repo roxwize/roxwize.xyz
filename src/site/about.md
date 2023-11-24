@@ -2,13 +2,15 @@
   title: About me
   summary: Wow!
 ---
-Oh? You want to know *more* about *me*?? ME?!?!?!?!
-
 Have a seat. There is milk in the fridge. Let me tell you about myself.
 
-I am a guy, I live in the United States. Did you know that? I didn't know that. I did, actually, but you didn't. Unless you did. If you did know, then here's a completely new fact about me you've never heard before: I like Autechre. There. You had no fucking idea.
+I am a guy, I live in the United States. My main interests are [programming](#programming), [music](#music), and [art](#art). Very broad interests, yes, but with how frequently I change hobbies it's really all I have to cling onto at this point.
 
 I intend to populate this area with my interests and stuff over time. Expect a lot of moving parts and spring cleaning.
+
+### Programming
+
+My favorite programming language is [Uiua](https://www.uiua.org/), second favorite is [Ruby](https://www.ruby-lang.org/). I primarily write JavaScript. GitHub account is at [https://github.com/thekifake/](https://github.com/thekifake/).
 
 ### Music
 
@@ -18,8 +20,13 @@ I primarily listen to [IDM/braindance](https://en.wikipedia.org/wiki/Intelligent
 
 I draw, sometimes. You've seen my art before, most likely. It's fun and I intend to go further with it but I also find comfort in graphic design. Not of the serious kind. Of the very amateurish and naive kind. Most of my art, including music, is inspired by the minimalism of [The Designers Republic](https://www.thedesignersrepublic.com/). I often times will take things I find in random parts of the Internet and make them their own thing. This is usually entirely by happenstance.
 
-![](/static/img/sgd.png)
-
 # Web memorabilia
 
 <a href="https://tamanotchi.world/8684c"><img src="https://tamanotchi.world/i2/8684" alt="It's tamaNOTchi! Click to feed!"></a>
+
+# Site changelog
+[Arvelie dates](https://wiki.xxiivv.com/site/arvelie.html) are used.
+
+<ul>
+  <li>00X04 &mdash; New diary entry, aboutme page</li>
+<ul>
