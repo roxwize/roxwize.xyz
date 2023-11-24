@@ -84,6 +84,15 @@ blockquote {
     font-weight: normal;
     font-family: "t3t3", monospace;
 }
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+}
+.subtitle {
+    font-size: smaller;
+    font-style: italic;
+}
 
 @font-face {
     font-family: 't3t3';

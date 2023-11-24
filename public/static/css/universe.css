@@ -1,0 +1,11 @@
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  width: 88px;
+  height: 31px;
+  image-rendering: pixelated;
+}
