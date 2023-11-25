@@ -16,6 +16,18 @@ function init() {
     _l.href = "./trlm.css";
     document.head.appendChild(_l);
   }
+  // Add user css
+  if (vars.extcss) {
+    const s = document.createElement("link");
+    s.rel = "stylesheet";
+    s.href = decodeURIComponent(vars.extcss);
+    document.head.appendChild(s);
+  }
+  if (vars.incss) {
+    const s = document.createElement("style");
+    s.innerHTML = decodeURIComponent(vars.incss);
+    document.head.appendChild(s);
+  }
   // Get the link XML
   const xhr = new XMLHttpRequest();
   xhr.open("GET", "https://roxwize.xyz/ext/trlm/trlm.xml", true);

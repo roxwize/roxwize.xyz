@@ -58,6 +58,8 @@ Parameter | Description | Default behavior | Example
 `title` | Specifies custom text for the header above the links | Sets header text to `More cool sites`; you can use `title=` to hide it completely |
 `internalstyle` | Use default styling (set to 0 if you are embedding inside a frame and you want to use your website's styling) | Does not use any default CSS |
 `nostyle` | Disables custom styles for links | [Does not do that](https://tvtropes.org/pmwiki/pmwiki.php/Main/DepartmentOfRedundancyDepartment) |
+`extcss` | Details an external CSS file to be embedded into the frame | | `extcss=https://roxwize.xyz/static/css/main.css`
+`incss` | Modify the css of the page inside of the url | | `incss=*{color:red;font-weight;bold}`
 
 ## To add your website to TRLM
 
