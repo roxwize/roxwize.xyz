@@ -61,6 +61,8 @@ Parameter | Description | Default behavior | Example
 `extcss` | Details an external CSS file to be embedded into the frame | | `extcss=https://roxwize.xyz/static/css/main.css`
 `incss` | Modify the css of the page inside of the url | | `incss=*{color:red;font-weight;bold}`
 
+Remember that parameters need to be URL encoded, so `body{background:black;color:white}` becomes `body%7Bbackground%3Ablack%3Bcolor%3Awhite%7D`. You can convert between the two using [this utility](https://emn178.github.io/online-tools/url_encode.html).
+
 ## To add your website to TRLM
 
 The simplest way to get your link added is to **[e-mail me](mailto:biscordbro@gmail.com) with the details of your link**. I don't mind how you format it, but I need to know at minimum where it links to, what text the link will display, and what [category](#rh-categories) it'll be in. It can be in multiple categories. If you need a template, refer to [Email template](#rh-email-template).
