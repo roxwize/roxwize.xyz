@@ -93,6 +93,12 @@ blockquote {
     font-style: italic;
 }
 
+#trlm {
+    border: 0;
+    overflow: hidden;
+    height: 12rem;
+}
+
 @font-face {
     font-family: 't3t3';
     src: url('/static/fonts/t3t3.woff2') format('woff2'),
