@@ -15,11 +15,15 @@ Linked below are the instructions for embedding TRLM and adding your website to 
 
 ## To add TRLM to your website
 
-**TL;DR**
+### Short version (TL;DR)
 
 ```html
 <iframe src="https://roxwize.xyz/ext/trlm" scrolling="no" width="500" height="150" frameborder="0"></iframe>
 ```
+
+<iframe src="https://roxwize.xyz/ext/trlm" scrolling="no" width="500" height="150" frameborder="0"></iframe>
+
+### Long version
 
 If you're feeling generous you can display other people's websites on yours. By default, up to eight links are displayed at once. Here is the link to the frame for you to embed:
 
@@ -30,6 +34,8 @@ You can also store a local copy of /trlm/ on your website, if you're into that. 
 In [square brackets] are the parameters for TRLM. All of them are optional. Here is an example displaying technology-related websites that uses plain, default styling with a maximum of 16 links.
 
 `https://roxwize.xyz/ext/trlm/?category=Technology&max=16&internalstyle=1`
+
+<iframe src="https://roxwize.xyz/ext/trlm/?category=Technology&max=16&internalstyle=1" scrolling="no" width="500" height="150" frameborder="0"></iframe>
 
 I might streamline the process of building the URL into a simple form eventually. Check back for when I get to that.
 
