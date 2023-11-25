@@ -8,7 +8,7 @@ This place serves as a repository to store that which piques my interest. Expect
 
 <img src="../static/img/button.png" alt="Website button" title="Website button" class="btn" /><br />
 
-<iframe src="https://roxwize.xyz/ext/trlm/?internalstyle=1" frameborder="0" scrolling="no" id="trlm"></iframe>
+<iframe src="https://roxwize.xyz/ext/trlm/?internalstyle=1&incss=%23titleheader%2C%23dontremovemeplease%7Bfont-family%3A%22t3t3%22%7D%23dontremovemeplease%7Bfont-size%3A8pt%7D" frameborder="0" scrolling="no" id="trlm"></iframe>
 
 <blockquote>
   And at once I knew<br />
