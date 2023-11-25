@@ -4,5 +4,8 @@
   "blog": {
     "thoughts": "/diary/index.html",
     "music": "/site/music.html"
+  },
+  "projects": {
+    "trlm": "/site/trlm.html"
   }
 }
