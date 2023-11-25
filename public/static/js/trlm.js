@@ -113,7 +113,7 @@ function buildLinks(links, doc) {
     const l = document.createElement("li");
     l.id = `li-${i}`;
     l.className = "trlmLink"
-    l.innerHTML = `<a href="${link.getAttribute("href")}" title="${
+    l.innerHTML = `<a target="_blank" href="${link.getAttribute("href")}" title="${
       link.getAttribute("title") || link.textContent
     }">${link.innerHTML}</a>`;
     if (link.getAttribute("style") && vars.nostyle !== "1") {
