@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE linkset [
+  <!ENTITY r "»">
+  <!ENTITY l "«">
+
+  <!ELEMENT linkset (category+)>
+    <!ELEMENT category (link*)>
+      <!ATTLIST category
+        name        ID             #REQUIRED
+        noinclude   (true|false)   "false"
+      >
+      <!ELEMENT link (#PCDATA)>
+        <!ATTLIST link 
+          id      ID      #IMPLIED
+          ref     IDREF   #IMPLIED
+          href    CDATA   #IMPLIED
+          title   CDATA   #IMPLIED
+          style   CDATA   #IMPLIED
+        >
+]>
+<linkset>
+  <category name="Technology">
+  </category>
+  <category name="Art">
+  </category>
+  <category name="Music">
+  </category>
+  <category name="GeneralAndPersonal">
+    <link href="http://sniper.xproot.pw/">IdioticSniper's Website</link>
+    <link href="https://keyaira.com/">keyaira.com</link>
+    <link href="https://ha1iiid3enz.carrd.co/" title="haidens website" style="@import url('https://fonts.googleapis.com/css2?family=Silkscreen&amp;display=swap');!{font-family:'Silkscreen';color:#cc0000;}">haiden.exe</link>
+  </category>
+</linkset>
