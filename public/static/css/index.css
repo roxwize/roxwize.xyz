@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-@font-face {
-    font-family: 't3t3';
-    src: url('../fonts/t3t3.woff2') format('woff2'),
-    url('/static/fonts/t3t3.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
