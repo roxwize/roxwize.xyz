@@ -78,7 +78,7 @@ If you like trailblazing then you can [use GitHub](#rh-using-github).
 
 Adding a link manually requires you to know your way around Git.
 
-In the repository for this website where TRLM's code is stored, the place where all links are stored can be found at [trlm.xml](#). Every link is contained inside `<category>`s. First of all, open that file, and click the pencil button at the top right.
+In the repository for this website where TRLM's code is stored, the place where all links are stored can be found at [trlm.xml](https://github.com/thekifake/roxwize.xyz/blob/master/public/ext/trlm/trlm.xml). Every link is contained inside `<category>`s. First of all, open that file, and click the pencil button at the top right.
 
 ![The pencil icon on GitHub](/static/img/sc/githubedit.png)
 
