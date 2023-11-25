@@ -15,6 +15,12 @@ Linked below are the instructions for embedding TRLM and adding your website to 
 
 ## To add TRLM to your website
 
+**TL;DR**
+
+```html
+<iframe src="https://roxwize.xyz/ext/trlm" scrolling="no" width="500" height="150" frameborder="0"></iframe>
+```
+
 If you're feeling generous you can display other people's websites on yours. By default, up to eight links are displayed at once. Here is the link to the frame for you to embed:
 
 `https://roxwize.xyz/ext/trlm/?category=[CATEGORY NAME]&max=[MAX LINKS]&title=[TITLE]&internalstyle=[DEFAULT STYLING (1 or 0)]&nostyle=[ENABLE LINK STYLES (1 or 0)]`
