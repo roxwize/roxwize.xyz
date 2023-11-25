@@ -19,6 +19,8 @@ If you're feeling generous you can display other people's websites on yours. By 
 
 `https://roxwize.xyz/ext/trlm/?category=[CATEGORY NAME]&max=[MAX LINKS]&title=[TITLE]&internalstyle=[DEFAULT STYLING (1 or 0)]&nostyle=[ENABLE LINK STYLES (1 or 0)]`
 
+You can also store a local copy of /trlm/ on your website, if you're into that. It should work on different websites.
+
 In [square brackets] are the parameters for TRLM. All of them are optional. Here is an example displaying technology-related websites that uses plain, default styling with a maximum of 16 links.
 
 `https://roxwize.xyz/ext/trlm/?category=Technology&max=16&internalstyle=1`
