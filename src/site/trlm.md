@@ -90,9 +90,9 @@ Also **your link can contain HTML**. This means that if you want to replace your
   }
 ```
 
-If you like trailblazing then you can [use GitHub](#rh-using-github).
+If you like trailblazing then you can [use Git](#rh-using-git).
 
-### Using GitHub
+### Using Git
 
 Adding a link manually requires you to know your way around Git.
 
