@@ -95,7 +95,7 @@ blockquote {
 article footer {
     font-weight: bold;
 }
-article footer div {
+article footer div, article footer .h-card {
     display: flex;
     align-items: center;
     gap: 1ch;
