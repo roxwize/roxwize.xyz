@@ -20,6 +20,7 @@
 ]>
 <linkset>
   <category name="Technology">
+    <link ref="caveatemptor.dev"/>
   </category>
   <category name="Art">
   </category>
@@ -29,5 +30,6 @@
     <link href="http://sniper.xproot.pw/">IdioticSniper's Website</link>
     <link href="https://keyaira.com/">keyaira.com</link>
     <link href="https://ha1iiid3enz.carrd.co/" title="haidens website" style="@import url('https://fonts.googleapis.com/css2?family=Silkscreen&amp;display=swap');!{font-family:'Silkscreen';color:#cc0000;}">haiden.exe</link>
+    <link href="https://caveatemptor.dev/" id="caveatemptor.dev">caveatemptor.dev</link>
   </category>
 </linkset>
