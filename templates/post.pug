@@ -10,12 +10,10 @@ block content
     p
       footer
         div
-          | Published
+          | Published&nbsp;
           time.dt-published(datetime=gm.date)= gm.date
-          | by
-          a.h-card(rel="author",href="https://roxwize.xyz/")
-            img.u-photo(src="/static/img/logo.png",alt="")
-            span.p-author roxwize
+          | &nbsp;by&nbsp;
+          a.h-card.p-author(rel="author",href="https://roxwize.xyz/") roxwize
         div
           | Updated&nbsp;
           time.dt-updated(datetime=gm.updateddate)= gm.updateddate
