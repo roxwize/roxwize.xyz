@@ -78,7 +78,7 @@ async function getBlogPosts() {
     copyright: "Licensed under CC BY-NC-SA 4.0",
     generator: "uproot.js",
     feedLinks: {
-      atom: "https://roxwize.xyz/diary/feed.xml"
+      rss: "https://roxwize.xyz/diary/feed.rss"
     },
     author: {
       name: "roxwize",
