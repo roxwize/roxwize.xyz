@@ -5,7 +5,7 @@
 ---
 # [The roxwize link mechanism](https://roxwize.xyz/ext/trlm/)
 
-Okay. Listen. It's a mad world out there. I can't even fathom the amount of ww3 domain parking content farm websites there are out there. But they exist. And I don't trust them. You shouldn't either. But if there's anything more trustworthy than scummy advertising it's me. You can trust me, right? So what if I... took those guys' ideas... and made it, like, actually good? You can trust me. Honest. In fact, I'll even let you add your *own* links to it. For free! If you're still not convinced, the door is <a href="javascript:window.history.back()">that way</a>.
+Okay. Listen. It's a mad world out there. I can't even fathom the amount of ww3 domain parking content farm websites there are out there. But they exist. And I don't trust them. You shouldn't either. But if there's anything more trustworthy than scummy advertising it's me. You can trust me, right? So what if I... took those guys' ideas... and made it, like, actually good? You can trust me. Honest. In fact, I'll even let you add your *own* links to it. For free! If you're still not convinced, the door is <a href="javascript:gobackwards()">that way</a>.
 
 **Basically, it's hypertext BannerLink Ads**. You can embed it on your website as an &lt;iframe&gt; and tailor the links themselves to a specific category.
 
@@ -163,3 +163,5 @@ Categories:
 Alt text (optional):
 Styling (optional):
 ```
+
+<script>function gobackwards(){if(window.history.length>0){window.history.back()}else{window.location.href = "https://roxwize.xyz/"}} // I have to wonder if this actually works or not because i feel like tehred be security measures in place against this sort of thing</script>
