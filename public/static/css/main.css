@@ -92,6 +92,17 @@ blockquote {
     font-size: smaller;
     font-style: italic;
 }
+article footer {
+    font-weight: bold;
+}
+article footer div {
+    display: flex;
+    align-items: center;
+    gap: 1ch;
+}
+article footer div img {
+    width: 16px;
+}
 
 @font-face {
     font-family: 't3t3';

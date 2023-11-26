@@ -8,11 +8,13 @@ block content
     .e-content
       | !{content}
     p
-      strong
-        | Published&nbsp;
-        time.dt-published(datetime=gm.date)= gm.date
-        | &nbsp;by&nbsp;
-        a(rel="author",class="h-card p-author",href="https://roxwize.xyz/") roxwize
-        br
-        | Updated&nbsp;
-        time.dt-updated(datetime=gm.updateddate)= gm.updateddate
+      footer
+        div
+          | Published&nbsp;
+          time.dt-published(datetime=gm.date)= gm.date
+          | &nbsp;by&nbsp;
+          img(src="/public/static/img/logo.png",alt="").u-photo
+          a(rel="author",class="h-card p-author",href="https://roxwize.xyz/") &nbsp;roxwize
+        div
+          | Updated&nbsp;
+          time.dt-updated(datetime=gm.updateddate)= gm.updateddate
