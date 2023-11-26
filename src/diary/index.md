@@ -9,3 +9,5 @@ I used to be really keen on making a blog. I wanted to do what all the other peo
 I don't intend to sell you a product, or give some useful programming anecdote. This is where I sit down for an hour or two and write about myself.
 
 Post titles are [Arvelie dates](https://wiki.xxiivv.com/site/arvelie.html). The contents of the posts themselves are usually not proofread.
+
+[![RSS Feed](/static/img/rss28.png)](https://roxwize.xyz/diary/feed.rss)

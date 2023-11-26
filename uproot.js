@@ -5,6 +5,7 @@ const gm = require("gray-matter");
 const md = require("marked");
 const md_headerIds = require("marked-gfm-heading-id").gfmHeadingId;
 const path = require("path");
+const feed = require("feed");
 
 const render = async (filePath) => {
   // This is use case agnostic probably. But it's not really used at the moment so it might be a waste of space.
@@ -63,26 +64,59 @@ async function renderNavbar() {
 }
 
 async function getBlogPosts() {
-  // Get blog posts, write to json
+  // Get blog posts, write to json and rss
   console.log("====\tGetting the blog posts")
+
+  const postFeed = new feed.Feed({
+    title: "roxwize's thoughts repository",
+    description: "Where Little Roxwize rants about whatever is interesting him at the time.",
+    id: "https://roxwize.xyz/diary/",
+    link: "https://roxwize.xyz/diary/",
+    language: "en",
+    image: "https://roxwize.xyz/static/img/logo.png",
+    favicon: "https://roxwize.xyz/favicon.ico",
+    copyright: "Licensed under CC BY-NC-SA 4.0",
+    generator: "uproot.js",
+    feedLinks: {
+      atom: "https://roxwize.xyz/diary/feed.xml"
+    },
+    author: {
+      name: "roxwize",
+      email: "biscordbro@gmail.com",
+      link: "https://roxwize.xyz/"
+    }
+  });
+
   const src = await glob("./src/diary/*.md");
   const a = [];
   for (let filePath of src) {
     if (filePath === "src\/diary\/index.md") continue;
     const file = (await fs.readFile(filePath)).toString("ascii");
     const matter = gm(file);
+    const data = matter.data;
     a.push({
-      ...matter.data,
+      ...data,
       path: filePath
     });
+    postFeed.addItem({
+      title: data.title,
+      id: `https://roxwize.xyz/diary/${data.title}.html`,
+      link: `https://roxwize.xyz/diary/${data.title}.html`,
+      description: data.summary,
+      content: md.parse(matter.content),
+      date: new Date(data.date)
+    });
   }
+  postFeed.options.updated = new Date(a[0].updateddate);
   console.log("==\t\t"+JSON.stringify(a));
+
+  await fs.mkdir("public\/diary");
+  await fs.writeFile(".\/public\/diary\/feed.rss", postFeed.rss2());
   await fs.writeFile(".\/src\/posts.json", JSON.stringify(a));
 }
 
 const w = (async () => {
   await fs.mkdir("public/site");
-  await fs.mkdir("public/blog");
   await getBlogPosts();
   await renderSite();
   await renderNavbar();
