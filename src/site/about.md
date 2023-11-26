@@ -10,6 +10,14 @@ I am a guy, I live in the United States. My main interests are [programming](#rh
 
 I intend to populate this area with my interests and stuff over time. Expect a lot of moving parts and spring cleaning.
 
+You can find me elsewhere at:
+- **GitHub**: <a href="https://github.com/thekifake" rel="me">thekifake</a>
+- **Fediverse**: <a href="https://lethallava.land/@t" rel="me">@t@lethallava.land</a>
+- **Two Cans and String**: <a href="https://twocansandstring.com/users/theki" rel="me">theki</a>
+- **Steam**: <a href="https://steamcommunity.com/id/roxwize/" rel="me">roxwize</a>
+- **Soundcloud**: <a href="https://soundcloud.com/thekifake" rel="me">thekifake</a>
+- **E-Mail**: <a href="mailto:biscordbro@gmail.com" rel="me">biscordbro [AT] gmail</a>
+
 ### Programming
 
 My favorite programming language is [Uiua](https://www.uiua.org/), second favorite is [Ruby](https://www.ruby-lang.org/). I primarily write JavaScript. GitHub account is at [https://github.com/thekifake/](https://github.com/thekifake/).
