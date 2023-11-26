@@ -103,7 +103,7 @@ function err(e) {
   titleHeader.textContent = e;
   buildLinks(
     [
-      placeholderLink("https://lists.sr.ht/~roxwize/roxwize.xyz-discuss", "File an issue"),
+      placeholderLink("https://todo.sr.ht/~roxwize/roxwize.xyz", "File an issue"),
       placeholderLink("javascript:window.location.reload()", "Reload the page"),
     ],
     null
