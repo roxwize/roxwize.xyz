@@ -1,0 +1,16 @@
+extends site.pug
+
+block content
+  article.h-entry
+    h1#top-header
+      a.u-url.u-uid.p-name(href=`https://roxwize.xyz/diary/${title}.html`)= title
+    em.p-summary= gm.summary
+    .e-content
+      | !{content}
+    p
+      strong
+        | Published&nbsp;
+        time.dt-published(datetime=gm.date)= gm.date
+        br
+        | Updated&nbsp;
+        time.dt-updated(datetime=gm.updateddate)= gm.updateddate

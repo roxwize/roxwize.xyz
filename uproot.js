@@ -21,7 +21,7 @@ const render = async (filePath) => {
   if (matter.data.nowrap) {
     out = md.parse(matter.content);
   } else if (matter.data.template) {
-    const data = JSON.parse((await fs.readFile(matter.data.data)).toString("ascii"));
+    const data = matter.data.data ? JSON.parse((await fs.readFile(matter.data.data)).toString("ascii")) : {};
     out = pug.compileFile(`./templates/${matter.data.template}.pug`)({
       title: matter.data.title,
       gm: matter.data,
