@@ -164,4 +164,4 @@ Alt text (optional):
 Styling (optional):
 ```
 
-<script>function gobackwards(){if(window.history.length>0){window.history.back()}else{window.location.href = "https://roxwize.xyz/"}} // I have to wonder if this actually works or not because i feel like tehred be security measures in place against this sort of thing</script>
+<script>function gobackwards(){if(window.history.length>1){window.history.back()}else{window.location.href = "https://roxwize.xyz/"}} // I have to wonder if this actually works or not because i feel like tehred be security measures in place against this sort of thing</script>
