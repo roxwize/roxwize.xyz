@@ -29,6 +29,14 @@ a:hover {
     font-family: "t3t3", monospace;
     font-size: 60pt;
 }
+.hidden {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+#homepage-socials {
+    text-align: left;
+}
 
 @font-face {
     font-family: 't3t3';
