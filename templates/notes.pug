@@ -1,0 +1,13 @@
+extends site.pug
+
+block append head
+  link(rel="stylesheet", href="../static/css/diary.css")
+
+block append content
+  - const o = {day:"2-digit",month:"long",year:"numeric",hour:"2-digit",minute:"2-digit",hour12:true};
+  .h-feed
+    each note, idx in data
+      .note.h-entry(id=`note-${idx}`)
+        span.p-content= note.c
+        a.u-url.p-name(href=`https://roxwize.xyz/notes.html#note-${idx}`)
+          time.dt-published(datetime=note.d)=(new Date(note.d)).toLocaleDateString("en-US", o)

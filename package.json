@@ -2,6 +2,11 @@
   "name": "roxwize",
   "version": "1.0.0",
   "description": "",
+  "private": "true",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thekifake/roxwize.xyz.git"
+  },
   "main": "uproot.js",
   "scripts": {
     "build": "node uproot.js"

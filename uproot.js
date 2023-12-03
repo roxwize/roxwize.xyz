@@ -116,11 +116,13 @@ async function getBlogPosts() {
 }
 
 const w = (async () => {
+  const start = new Date();
   await fs.mkdir("public/site");
   await getBlogPosts();
   await renderSite();
   await renderNavbar();
-  console.log("It is done");
+  const end = new Date();
+  console.log(`Done in ${end - start}ms`);
 });
 
 // (() => {
