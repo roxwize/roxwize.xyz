@@ -2,8 +2,8 @@
   "home": "/site/home.html",
   "about": "/site/about.html",
   "blog": {
-    "thoughts": "/diary/index.html",
-    "notes": "/site/notes.html",
+    "thoughts": "/diary/",
+    "notes": "/notes/",
     "music": "/site/music.html"
   },
   "projects": {

@@ -9,5 +9,5 @@ block append content
     each note, idx in data
       .note.h-entry(id=`note-${idx}`)
         span.p-content= note.c
-        a.u-url.p-name(href=`https://roxwize.xyz/notes.html#note-${idx}`)
+        a.u-url.p-name(href=`#note-${idx}`)
           time.dt-published(datetime=note.d)=(new Date(note.d)).toLocaleDateString("en-US", o)
