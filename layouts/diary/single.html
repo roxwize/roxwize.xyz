@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <div id="article" class="h-entry">
+    <h1 id="top-header"><a class="u-url u-id p-name" href="{{ .Permalink }}">{{ .Title }}</a></h1>
+    <em class="p-summary">{{ .Summary }}</em>
+    <div class="e-content">
+      {{ .Content }}
+    </div>
+    <p>
+      <footer>
+        <div>
+          {{ $date := .Date | time.Format "January 2, 2006 at 03:04pm MST" }}
+          Published <time class="dt-published" datetime="{{ .Date }}">{{ $date }}</time> by <a class="h-card p-author" href="https://roxwize.xyz/">roxwize</a>
+        </div>
+        {{ with .Params.Updateddate }}
+          <div>
+              {{ $udate := . | time.Format "January 2, 2006 at 03:04pm MST" }}
+              Updated <time class="dt-updated" datetime="{{ . }}">{{ $udate }}</time>
+          </div>
+        {{ end }}
+      </footer>
+    </p>
+  </div>
+{{ end }}

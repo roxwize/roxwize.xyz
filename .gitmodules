@@ -1,0 +1,3 @@
+[submodule "themes\\ciden"]
+	path = themes\\ciden
+	url = https://git.sr.ht/~roxwize/ciden

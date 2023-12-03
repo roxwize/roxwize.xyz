@@ -1,0 +1,20 @@
+.diary-entry {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--overlay);
+  color: var(--bg);
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 2px dotted var(--bg);
+}
+.diary-entry:last-child {
+  border-bottom: 0;
+}
+.diary-entry-title {
+  font-size: x-large;
+  font-weight: bold;
+}
+.diary-entry-summary {
+  font-size: small;
+  font-weight: lighter;
+}

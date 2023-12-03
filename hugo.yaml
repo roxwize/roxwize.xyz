@@ -1,0 +1,39 @@
+baseURL: 'https://roxwize.xyz/'
+languageCode: 'en-us'
+title: 'roxwize'
+theme: 'ciden'
+copyright: 'roxwize. Licensed under the CC BY-NC-SA 4.0 license.'
+
+enableInlineShortcodes: true
+disableKinds:
+  - taxonomy
+  - term
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - name: home
+      pageRef: /site/home
+      weight: 10
+    - name: about
+      pageRef: /site/about
+      weight: 20
+    - name: "blog"
+      weight: 30
+    - name: thoughts
+      pageRef: /diary
+      weight: 1
+      parent: blog
+    - name: music
+      pageRef: /site/music
+      weight: 2
+      parent: blog
+    - name: projects
+      weight: 40
+    - name: trlm
+      pageRef: /site/trlm
+      weight: 1
+      parent: projects

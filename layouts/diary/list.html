@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ range .Pages }}
+    <div class="diary-entry">
+      <div class="diary-entry-title">
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      </div>
+      <div class="diary-entry-summary">
+        <em>{{ .Summary }}</em><br/>
+        {{ .WordCount }} words | {{ math.Div .WordCount 200 | math.Floor }} minutes
+      </div>
+    </div>
+  {{ end }}
+{{ end }}
