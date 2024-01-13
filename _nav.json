@@ -3,7 +3,6 @@
   "about": "/site/about.html",
   "blog": {
     "thoughts": "/diary/",
-    "notes": "/notes/",
     "music": "/site/music.html"
   },
   "projects": {
