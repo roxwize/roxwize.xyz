@@ -15,7 +15,7 @@ If you have any burning questions, please feel free to [email me](mailto:biscord
 
 ### What is your favorite...?
 
-**Album**: [Autechre — LP5](https://www.albumoftheyear.org/album/6863-autechre-lp5.php)<br>
+**Album**: [Autechre &ndash; LP5](https://www.albumoftheyear.org/album/6863-autechre-lp5.php)<br>
 **Beatle**: John Lennon<br>
 **Color**: Lavender<br>
 **Eeveelution**: Leafeon<br>
@@ -24,14 +24,14 @@ If you have any burning questions, please feel free to [email me](mailto:biscord
 **Letter**: i (lowercase only)<br>
 **Movie**: [Vanilla Sky (2001)](https://www.imdb.com/title/tt0259711/)<br>
 **Number**: 7<br>
-**Pokémon**: Raboot<br>
+**Pok&eacute;mon**: Raboot<br>
 **Programming language**: [Uiua](https://www.uiua.org/)<br>
-**Song**: [Autechre — Rae](https://www.youtube.com/watch?v=jWy9O6MdSJM)<br>
+**Song**: [Autechre &ndash; Rae](https://www.youtube.com/watch?v=jWy9O6MdSJM)<br>
 **Candy**: Swedish Fish(?)<br>
 **Valve game**: Portal 2<br>
 **Video essay**: [Art, Furries, God](https://youtu.be/LOGgqym6Nks)<br>
 **Video game**: [Yume 2kki](https://ynoproject.net/2kki/)<br>
-**Video game soundtrack**: [Marskye — GNOG](https://marskye.bandcamp.com/album/gnog)<br>
+**Video game soundtrack**: [Marskye &ndash; GNOG](https://marskye.bandcamp.com/album/gnog)<br>
 **Wikipedia article**: [L-system](https://en.wikipedia.org/wiki/L-system)<br>
 **Word**: Pebnoe<br>
 **YouTube video**: [Miramaru's Indictment Disk](https://youtu.be/ELzPdGZ1I34)
