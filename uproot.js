@@ -1,6 +1,7 @@
 const glob = require("glob").glob;
 const pug = require("pug");
 const fs = require("fs/promises");
+const fse = require("fs");
 const gm = require("gray-matter");
 const md = require("marked");
 const md_headerIds = require("marked-gfm-heading-id").gfmHeadingId;
@@ -110,14 +111,18 @@ async function getBlogPosts() {
   postFeed.options.updated = new Date(a[0].updateddate);
   console.log("==\t\t"+JSON.stringify(a));
 
-  await fs.mkdir("public\/diary");
+  if (!fse.existsSync("public/diary")) {
+    await fs.mkdir("public/diary");
+  }
   await fs.writeFile(".\/public\/diary\/feed.rss", postFeed.rss2());
   await fs.writeFile(".\/src\/posts.json", JSON.stringify(a));
 }
 
 const w = (async () => {
   const start = new Date();
-  await fs.mkdir("public/site");
+  if (!fse.existsSync("public/site")) {
+    await fs.mkdir("public/site");
+  }
   await getBlogPosts();
   await renderSite();
   await renderNavbar();
