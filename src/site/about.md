@@ -16,6 +16,7 @@ If you have any burning questions, please feel free to [email me](mailto:biscord
 ### What is your favorite...?
 
 **Album**: [Autechre &ndash; LP5](https://www.albumoftheyear.org/album/6863-autechre-lp5.php)<br>
+**Animal**: Cats meow meow<br>
 **Beatle**: John Lennon<br>
 **Color**: Lavender<br>
 **Eeveelution**: Leafeon<br>
@@ -24,9 +25,13 @@ If you have any burning questions, please feel free to [email me](mailto:biscord
 **Letter**: i (lowercase only)<br>
 **Movie**: [Vanilla Sky (2001)](https://www.imdb.com/title/tt0259711/)<br>
 **Number**: 7<br>
+**Pie**: Pumpkin<br>
 **Pok&eacute;mon**: Raboot<br>
 **Programming language**: [Uiua](https://www.uiua.org/)<br>
-**Song**: [Autechre &ndash; Rae](https://www.youtube.com/watch?v=jWy9O6MdSJM)<br>
+**Song**: Tied between [Autechre &ndash; Rae](https://www.youtube.com/watch?v=jWy9O6MdSJM) and [Autechre &ndash; all end](https://www.youtube.com/watch?v=duPQ87JLO8s)<br>
+**Source entity**: env_explosion<br>
+**Steam emoticon**: :winter2019neutralbulb:<br>
+**Time of day**: 2:52 PM<br>
 **Candy**: Swedish Fish(?)<br>
 **Valve game**: Portal 2<br>
 **Video essay**: [Art, Furries, God](https://youtu.be/LOGgqym6Nks)<br>
@@ -34,6 +39,7 @@ If you have any burning questions, please feel free to [email me](mailto:biscord
 **Video game soundtrack**: [Marskye &ndash; GNOG](https://marskye.bandcamp.com/album/gnog)<br>
 **Wikipedia article**: [L-system](https://en.wikipedia.org/wiki/L-system)<br>
 **Word**: Pebnoe<br>
+**YouTube channel**: [The Coding Train](https://www.youtube.com/@TheCodingTrain)<br>
 **YouTube video**: [Miramaru's Indictment Disk](https://youtu.be/ELzPdGZ1I34)
 
 ### Programming
