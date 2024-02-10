@@ -3,6 +3,4 @@ node_modules/
 public/site/
 public/diary/
 
-# not sure if this is necessary
-pnpm-lock.yaml
-package-lock.json
+src/posts.json
