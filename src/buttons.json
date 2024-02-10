@@ -24,7 +24,8 @@
     {"t":"The Burned Out Nerd","i":"theburnedoutnerd.gif","l":"https://theburnedoutnerd.neocities.org/"},
     {"t":"cheru","i":"cheru.png","l":"https://cheru.neocities.org/"},
     {"t":"goom","i":"goom.gif","l":"https://goom14.neocities.org/"},
-    {"t":"PENCILVOID","i":"pv.png","l":"https://pencilvoid.neocities.org/"}
+    {"t":"PENCILVOID","i":"pv.png","l":"https://pencilvoid.neocities.org/"},
+    {"t":"thepersonever","i":"thepersoneverbutton.gif","l":"https://thepersonever.net/"}
   ],
   [
     {"t":"tamaNOTchi","i":"tamanotchi.gif","l":"https://tamanotchi.world/"},
@@ -35,6 +36,7 @@
     {"t":"Join the Fediverse","i":"neo-fedi.gif","l":"https://thecozy.cat/wp-content/uploads/2023/08/neo-fedi.gif"},
     {"t":"I use Vivaldi","i":"vivaldi.gif","l":"https://vivaldi.com/"},
     {"t":"Visual Studio Code","i":"vscbutton.gif","l":"https://code.visualstudio.com/"},
-    {"t":"ha lf - lie 2","i":"but_half-lie2.png","l":null}
+    {"t":"ha lf - lie 2","i":"but_half-lie2.png","l":null},
+    {"t":"made with my own two paws","i":"own2paws.png","l":null}
   ]
 ]
