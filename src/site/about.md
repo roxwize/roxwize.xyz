@@ -60,9 +60,9 @@ Portal 2 is probably one of my favorite video games next to OneShot and Yume 2kk
 
 ### Interesting Fursona Information
 
-I think, like, a few years ago my friend made these creatures named [lavbunnies](https://goom.noncities.com/lavbunnies/) and I fell in love with them immediately. That is why [I am one](/site/me). They all wear these white T-shirts that they're really attached to, but some aren't? Apparently (according to my friend) there are gangs of armed white T-shirt-less lavbunnies that viciously attack any lavbnuy wearing one. They die. This, of course, means that I am in danger.
+I think, like, a few years ago my friend made these creatures named [lavbunnies](https://goom.noncities.com/lavbunnies/) and I fell in love with them immediately. That is why [I am one](/site/me). They all wear these white T-shirts that they're really attached to, but some aren't? Apparently (according to my friend) there are gangs of armed white T-shirt-less lavbunnies that viciously attack any lavbnuy not wearing one. They die. This, of course, means that I am usually in danger.
 
-I'm kidding, of course. Fuck those guys. I've never punched a single thing in my entire life and I don't want to so I have no defense. The solution is to not wear white t-shirts. But then there is the possibility of black t-shirter gangs, and gangs that attack lavbunnies wearing no clothing. I don't think there is any sort of vendetta against crop tops and/or hoodies so I usually just wear those depending on the weather... if I manage to successfully go outside once per week without choking on the fresh air.
+I'm kidding, of course. Fuck those guys. I've never punched a single thing in my entire life and I don't want to so I have no defense. The solution is to consciously wear white t-shirts when I'm out and about. But then there is the possibility of gangs that kill lavbunnies that wear white T-shirts. I don't think there is any sort of vendetta against crop tops and/or hoodies so I usually just wear those depending on the weather... if I manage to successfully go outside once per week without choking on the fresh air.
 
 # Web memorabilia
 
