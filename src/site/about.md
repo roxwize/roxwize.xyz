@@ -5,11 +5,13 @@
   data: ./src/buttons.json
 ---
 
-This used to be a rather grand page. Can't be arsed to give this page as much maintenance as it warrants so I'm stripping it down.
+I'm roxwize. I am a guy(?), late 15s, I live in the United States. I write code and compose music. Sometimes I draw too. If you couldn't tell already, I'm a furry. I'm so relatively badass that my website is unblocked everywhere under the grounds that it is most definitely IT-related.
 
-I'm roxwize. I am a guy, I live in the United States. I write code and compose music. Sometimes I draw too. I'm so relatively badass that my website is unblocked everywhere under the grounds that it is most definitely IT-related.
+I've not been diagnosed with anything due to a lack of access to any sort of therapy or psychiatry so I can't tell you what repertoire of mental illnesses I have (if any), but I _can_ tell you that my attention span is SHIT. Please excuse any consistencies displayed in this website or in my behavior. It is all natural, of course. As I write this (February 11, 2024) I am stalling on an important exam due tonight! Marvelous!
 
-Minimalism is my life. The Designers Republic makes the only modern art I can stand to look at. [My taste in music](#rh-music) is similarly pretentious.
+I learned how to code sometime around late 2020 (thank you, [Jonas Schmedtmann](https://codingheroes.io/)) and it has completely enveloped me. My main hobbies are some sort of intersection between programming and art; generative art and music has and will remain to be my favorite thing to make. If you're interested in finding me elsewhere, my socials are on the index page. Good luck. Don't die. I LOVE YOU.
+
+Minimalism is my life. The Designers Republic makes the only modern art I can stand to look at. [My taste in music](#rh-music) is similarly pretentious. Here's my last.fm if you're curious :3 [https://www.last.fm/user/thekillective](https://www.last.fm/user/thekillective)
 
 If you have any burning questions, please feel free to [email me](mailto:biscordbro@gmail.com).
 
@@ -52,9 +54,15 @@ I primarily listen to [IDM/braindance](https://en.wikipedia.org/wiki/Intelligent
 
 ### Games
 
-Games are cool. Fun. I like chess but it fucks me over so I rarely play it. Blackjack is a lot of fun, so is Texas Hold'Em. If you're not actually losing money by playing it. I would not know, I've never been to a casino before.
+Games are cool. Fun. I like chess but it fucks me over so I rarely play it. Blackjack is a lot of fun, so is Texas Hold'Em. If you're not actually losing money by playing it. I would not know, I've never been to a casino before. A few years ago I played poker with my buddies and got third out of fourth place. It was me and this kid my age versus two fourty-year-old men. They beat our asses but it was extremely fun. I haven't seen them since then. They might be dead.
 
 Portal 2 is probably one of my favorite video games next to OneShot and Yume 2kki. If I had to rank them, Yume 2kki would be on the top. It's a good game. I like it.
+
+### Interesting Fursona Information
+
+I think, like, a few years ago my friend made these creatures named [lavbunnies](https://goom.noncities.com/lavbunnies/) and I fell in love with them immediately. That is why [I am one](/site/me). They all wear these white T-shirts that they're really attached to, but some aren't? Apparently (according to my friend) there are gangs of armed white T-shirt-less lavbunnies that viciously attack any lavbnuy wearing one. They die. This, of course, means that I am in danger.
+
+I'm kidding, of course. Fuck those guys. I've never punched a single thing in my entire life and I don't want to so I have no defense. The solution is to not wear white t-shirts. But then there is the possibility of black t-shirter gangs, and gangs that attack lavbunnies wearing no clothing. I don't think there is any sort of vendetta against crop tops and/or hoodies so I usually just wear those depending on the weather... if I manage to successfully go outside once per week without choking on the fresh air.
 
 # Web memorabilia
 
