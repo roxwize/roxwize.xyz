@@ -5,7 +5,7 @@
   data: ./src/buttons.json
 ---
 
-<div class="mood">Currently feeling <a href="https://www.imood.com/users/hoylecake"><img src="https://moods.imood.com/display/uname-hoylecake/fg-#181c3/trans-1/imood.gif" alt="The current mood of hoylecake at www.imood.com" border="0"></a></div>
+<div class="mood">Currently feeling <a href="https://www.imood.com/users/hoylecake"><img src="https://moods.imood.com/display/uname-hoylecake/fg-181c3/trans-1/imood.gif" alt="The current mood of hoylecake at www.imood.com" border="0"></a></div>
 
 I'm roxwize. I am a guy(?), late 15s, I live in the United States. I write code and compose music. Sometimes I draw too. If you couldn't tell already, I'm a furry. I'm so relatively badass that my website is unblocked everywhere under the grounds that it is most definitely IT-related.
 
