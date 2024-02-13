@@ -42,7 +42,7 @@ If you have any burning questions, please feel free to [email me](mailto:biscord
 **Wikipedia article**: [L-system](https://en.wikipedia.org/wiki/L-system)<br>
 **Word**: Pebnoe<br>
 **YouTube channel**: [The Coding Train](https://www.youtube.com/@TheCodingTrain)<br>
-**YouTube video**: [Miramaru's Indictment Disk](https://youtu.be/ELzPdGZ1I34)
+**YouTube video**: [The Glorious Octagon of Destiny](https://youtu.be/ddWJatRxfz8)
 
 ### Programming
 
