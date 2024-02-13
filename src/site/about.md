@@ -5,6 +5,8 @@
   data: ./src/buttons.json
 ---
 
+<div class="name">Currently feeling <a href="https://www.imood.com/users/hoylecake"><img src="https://moods.imood.com/display/uname-hoylecake/fg-#181c3/bg-#ecf0f/imood.gif" alt="The current mood of hoylecake at www.imood.com" border="0"></a></div>
+
 I'm roxwize. I am a guy(?), late 15s, I live in the United States. I write code and compose music. Sometimes I draw too. If you couldn't tell already, I'm a furry. I'm so relatively badass that my website is unblocked everywhere under the grounds that it is most definitely IT-related.
 
 I've not been diagnosed with anything due to a lack of access to any sort of therapy or psychiatry so I can't tell you what repertoire of mental illnesses I have (if any), but I _can_ tell you that my attention span is SHIT. Please excuse any consistencies displayed in this website or in my behavior. It is all natural, of course. As I write this (February 11, 2024) I am stalling on an important exam due tonight! Marvelous!

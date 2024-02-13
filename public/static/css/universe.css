@@ -10,3 +10,16 @@
   height: 31px;
   image-rendering: pixelated;
 }
+
+.mood {
+  display: flex;
+  gap: 1ch;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.mood > a {
+  height: 15px;
+}
