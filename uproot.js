@@ -18,12 +18,14 @@ const render = async (filePath) => {
   }
   const file = (await fs.readFile(filePath)).toString("ascii");
   const matter = gm(file);
-  md.use(md_headerIds({prefix:"rh-"}));
+  md.use(md_headerIds({ prefix: "rh-" }));
   let out;
   if (matter.data.nowrap) {
     out = md.parse(matter.content);
   } else if (matter.data.template) {
-    const data = matter.data.data ? JSON.parse((await fs.readFile(matter.data.data)).toString("ascii")) : {};
+    const data = matter.data.data
+      ? JSON.parse((await fs.readFile(matter.data.data)).toString("ascii"))
+      : {};
     out = pug.compileFile(`./templates/${matter.data.template}.pug`)({
       title: matter.data.title,
       gm: matter.data,
@@ -34,14 +36,14 @@ const render = async (filePath) => {
     out = pug.compileFile("./templates/site.pug")({
       title: matter.data.title,
       gm: matter.data,
-      content: md.parse(matter.content),
+      content: md.parse(matter.content)
     });
   }
   await fs.writeFile(
     `./public/${relativePath.replace(/\.[^\/.]+$/, "")}.html`, // ugh
     out
   );
-}
+};
 
 // Render the main Markdown pages, other stuff comes later
 async function renderSite() {
@@ -58,7 +60,7 @@ async function renderNavbar() {
   console.log("====\tUpdating navbar");
   const navbar = JSON.parse((await fs.readFile("_nav.json")).toString("ascii"));
   const out = pug.compileFile("./templates/nav.pug")({
-    n: navbar,
+    n: navbar
   });
   console.log("==\t\tWriting to _nav.html");
   await fs.writeFile("./public/site/_nav.html", out);
@@ -66,17 +68,18 @@ async function renderNavbar() {
 
 async function getBlogPosts() {
   // Get blog posts, write to json and rss
-  console.log("====\tGetting the blog posts")
+  console.log("====\tGetting the blog posts");
 
   const postFeed = new feed.Feed({
     title: "roxwize's thoughts repository",
-    description: "Where Little Roxwize rants about whatever is interesting him at the time.",
+    description:
+      "Where Little Roxwize rants about whatever is interesting him at the time.",
     id: "https://roxwize.xyz/diary/",
     link: "https://roxwize.xyz/diary/",
     language: "en",
     image: "https://roxwize.xyz/static/img/logo.png",
     favicon: "https://roxwize.xyz/favicon.ico",
-    copyright: "Licensed under CC BY-NC-SA 4.0",
+    copyright: "Licensed under CC BY 4.0",
     generator: "uproot.js",
     feedLinks: {
       rss: "https://roxwize.xyz/diary/feed.rss"
@@ -91,7 +94,7 @@ async function getBlogPosts() {
   const src = await glob("./src/diary/*.md");
   const a = [];
   for (let filePath of src) {
-    if (filePath === "src\/diary\/index.md") continue;
+    if (filePath === "src/diary/index.md") continue;
     const file = (await fs.readFile(filePath)).toString("ascii");
     const matter = gm(file);
     const data = matter.data;
@@ -109,16 +112,16 @@ async function getBlogPosts() {
     });
   }
   postFeed.options.updated = new Date(a[0].updateddate);
-  console.log("==\t\t"+JSON.stringify(a));
+  console.log("==\t\t" + JSON.stringify(a));
 
   if (!fse.existsSync("public/diary")) {
     await fs.mkdir("public/diary");
   }
-  await fs.writeFile(".\/public\/diary\/feed.rss", postFeed.rss2());
-  await fs.writeFile(".\/src\/posts.json", JSON.stringify(a));
+  await fs.writeFile("./public/diary/feed.rss", postFeed.rss2());
+  await fs.writeFile("./src/posts.json", JSON.stringify(a));
 }
 
-const w = (async () => {
+const w = async () => {
   const start = new Date();
   if (!fse.existsSync("public/site")) {
     await fs.mkdir("public/site");
@@ -128,7 +131,7 @@ const w = (async () => {
   await renderNavbar();
   const end = new Date();
   console.log(`Done in ${end - start}ms`);
-});
+};
 
 // (() => {
 //   console.log(
