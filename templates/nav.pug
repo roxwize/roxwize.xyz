@@ -9,3 +9,29 @@ mixin level(list)
           +level(link)
 
 +level(n)
+ul#themes
+  li
+    strong theme
+    ul
+      each theme in t
+        li
+          a(onclick=``,href=`javascript:_set_theme("${theme.name}")`)= theme.name
+  li
+    a.subtitle(href="javascript:_theme_credits()") view theme credits
+#theme-credits.hidden
+  div
+    each theme in t
+      h3= theme.name + "."
+      if theme.source
+        div
+          | created by&nbsp;
+          a(href=theme.source.author_url)= theme.source.author
+        if theme.source.palette_url
+          a(href=theme.source.palette_url) view online
+    hr
+    a(href="javascript:_theme_credits()").subtitle x close
+script(type="text/javascript").
+  const _t_c = document.getElementById("theme-credits");
+  function _theme_credits() {
+    _t_c.classList.toggle("hidden");
+  }

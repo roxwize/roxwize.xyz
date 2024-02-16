@@ -8,6 +8,10 @@ const md_headerIds = require("marked-gfm-heading-id").gfmHeadingId;
 const path = require("path");
 const feed = require("feed");
 
+/**
+ * read a markdown file, write it into /public/
+ * @param {string} filePath
+ */
 const render = async (filePath) => {
   // This is use case agnostic probably. But it's not really used at the moment so it might be a waste of space.
   console.log(`==\t\treading ${filePath}`);
@@ -45,7 +49,9 @@ const render = async (filePath) => {
   );
 };
 
-// Render the main Markdown pages, other stuff comes later
+/**
+ * render the main Markdown pages, other stuff comes later
+ */
 async function renderSite() {
   console.log("====\tFuuuckkk");
   const src = await glob("./src/**/*.md");
@@ -55,12 +61,17 @@ async function renderSite() {
   }
 }
 
-async function renderNavbar() {
+/**
+ * compile _nav.html from _nav.json
+ * @param {{}[]} themes for rendering the theme selector
+ */
+async function renderNavbar(themes) {
   // Update navbar
   console.log("====\tUpdating navbar");
   const navbar = JSON.parse((await fs.readFile("_nav.json")).toString("ascii"));
   const out = pug.compileFile("./templates/nav.pug")({
-    n: navbar
+    n: navbar,
+    t: themes
   });
   console.log("==\t\tWriting to _nav.html");
   await fs.writeFile("./public/site/_nav.html", out);
@@ -121,39 +132,43 @@ async function getBlogPosts() {
   await fs.writeFile("./src/posts.json", JSON.stringify(a));
 }
 
-const w = async () => {
+/**
+ * get all the palettes defined in _themes.json, write them to a file
+ * @returns {Promise<{}[]>}
+ */
+async function getPalettes() {
+  console.log("====\twriting theme data to css");
+  const themes = JSON.parse(
+    await fs.readFile("_themes.json", { encoding: "ascii" })
+  );
+
+  // make themes directory if it doesnt exist already
+  if (!fse.existsSync("public/static/css/theme")) {
+    await fs.mkdir("public/static/css/theme");
+  }
+
+  for (let theme of themes) {
+    const css = `* {
+  --bg: ${theme.palette.bg};
+  --fg: ${theme.palette.fg};
+  --overlay: ${theme.palette.overlay};
+  --a: ${theme.palette.a};
+}`;
+    await fs.writeFile(`public/static/css/theme/t_${theme.name}.css`, css);
+    console.log(`==\t\t/public/static/css/theme/t_${theme.name}.css`);
+  }
+  return themes;
+}
+
+(async () => {
   const start = new Date();
   if (!fse.existsSync("public/site")) {
     await fs.mkdir("public/site");
   }
+  const themes = await getPalettes();
   await getBlogPosts();
   await renderSite();
-  await renderNavbar();
+  await renderNavbar(themes);
   const end = new Date();
   console.log(`Done in ${end - start}ms`);
-};
-
-// (() => {
-//   console.log(
-//     "GOOD EVENING\nWe are watching for changes at " + new Date().toISOString()
-//   );
-//   watch("./", { recursive: true }, async (e ,f) => {
-//     const ext = path.extname(f);
-//     changes.push(e+" "+f);
-//     console.log(`${f} has just been ${e}d`);
-//     if (ext === ".pug") { renderSrc(); return; }
-//     if (ext !== ".md" && ext !== ".json") return;
-//     if (e === "update") {
-//       if (f === "_nav.json") { renderNavbar(); return; }
-//       render(f);
-//     } else if (e === "remove" && ext === ".md") {
-//       const dir = "site/"+f.match(/[-_\w]+(?=[.][\w]+)/i)[0]+".html";
-//       if (!(require("fs").existsSync(dir))) return;
-//       console.log(`(We are going to remove ${dir}`);
-//       await fs.rm(dir);
-//     }
-//     console.log("\t\t\t\tTOTAL CHANGES THUS FAR:\n"+changes.join("\n\t\t"))
-//   });
-// })();
-
-w();
+})();

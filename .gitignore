@@ -2,5 +2,6 @@
 node_modules/
 public/site/
 public/diary/
+public/static/css/theme/
 
 src/posts.json

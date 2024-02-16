@@ -1,45 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>roxwize</title>
-  <link rel="stylesheet" href="static/css/palette.css" type="text/css">
-  <link rel="stylesheet" href="static/css/index.css" type="text/css">
-  <link rel="webmention" href="https://webmention.io/roxwize.xyz/webmention">
-  <link rel="feed" href="https://roxwize.xyz/notes/" title="Notes" type="text/html">
-</head>
-<body>
-<div id="content" class="h-card">
-  <a id="logo" href="site/home.html" class="p-nickname">roxwize</a>
-  <em>
-    <span class="p-note">teenage programming scum</span>
-    | <span class="p-pronouns u-pronoun">he/they</span>
-    | <span class="p-category">programmer</span>, <span class="p-category">artist</span>, <span class="p-category">musician</span>
-  </em>
-  <p>Click on the above to enter the website.<br>
-    This is not a Web 1.0 site. Certain features will not work on older browsers. Built for a 1600x900px monitor.</p>
-  <p>There is also a lot of mild-to-strong profanity and teen angst here. You may or may not find this a good thing.</p>
-  <p><a href="https://lospec.com/palette-list/periwinkle-is-a-weird-word">Website color palette</a> created by <a href="https://182exe.online/">182exe</a>.</p>
-  <p><a href="javascript:unhideSocials()">Socials</a></p>
-  <div id="homepage-socials" class="hidden">
-    <strong>You can find me elsewhere at:</strong>
-    <ul>
-      <li><strong>E-Mail</strong>: <a href="mailto:biscordbro@gmail.com" rel="me" class="u-email">biscordbro [AT] gmail</a></li>
-      <li><strong>Fediverse</strong>: <a href="https://lethallava.land/@t" rel="me">@t@lethallava.land</a></li>
-      <li><strong>GitHub</strong>: <a href="https://github.com/roxwize" rel="me">roxwize</a></li>
-      <li><strong>IndieWeb</strong>: <a href="https://indieweb.org/User:Roxwize.xyz" rel="me">Roxwize.xyz</a></li>
-      <li><strong>Steam</strong>: <a href="https://steamcommunity.com/id/roxwize/" rel="me">roxwize</a></li>
-      <li><strong>YouTube</strong>: <a href="https://www.youtube.com/@roxwize" rel="me">@roxwize</a></li>
-    </ul>
-  </div>
-  <br><br><span>
-    <img src="static/img/logo.png" width="25" alt="" class="u-logo"><br>&copy; roxwize 2023.
-    Licensed under the <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0 license</a>.
-  </span>
-  <a href="https://roxwize.xyz/" class="u-url u-uid"></a>
-</div>
-<script>
-  const s=document.getElementById("homepage-socials");function unhideSocials(){s.classList.toggle("hidden")}
-</script>
-</body>
+  <head>
+    <script>
+      const s = document.getElementById("homepage-socials");
+      function unhideSocials() {
+        s.classList.toggle("hidden");
+      }
+
+      function _reload_theme() {
+        // load palette
+        let _t = localStorage.rxTheme;
+        if (!_t) localStorage.rxTheme = _t = "periwinkle";
+
+        const link = document.createElement("link");
+        link.type = "text/css";
+        link.rel = "stylesheet";
+        link.href = `/static/css/theme/t_${_t}.css`;
+        document.head.appendChild(link);
+      }
+      _reload_theme();
+    </script>
+    <meta charset="UTF-8" />
+    <title>roxwize</title>
+    <link rel="stylesheet" href="static/css/index.css" type="text/css" />
+    <link
+      rel="webmention"
+      href="https://webmention.io/roxwize.xyz/webmention"
+    />
+    <link
+      rel="feed"
+      href="https://roxwize.xyz/notes/"
+      title="Notes"
+      type="text/html"
+    />
+  </head>
+  <body>
+    <div id="content" class="h-card">
+      <a id="logo" href="site/home.html" class="p-nickname">roxwize</a>
+      <em>
+        <span class="p-note">teenage programming scum</span>
+        | <span class="p-pronouns u-pronoun">he/they</span> |
+        <span class="p-category">programmer</span>,
+        <span class="p-category">artist</span>,
+        <span class="p-category">musician</span>
+      </em>
+      <p>
+        Click on the above to enter the website.<br />
+        This is not a Web 1.0 site. Certain features will not work on older
+        browsers. Built for a 1600x900px monitor.
+      </p>
+      <p>
+        There is also a lot of mild-to-strong profanity and teen angst here. You
+        may or may not find this a good thing.
+      </p>
+      <p>
+        <a href="https://lospec.com/palette-list/periwinkle-is-a-weird-word"
+          >Website color palette</a
+        >
+        created by <a href="https://182exe.online/">182exe</a>.
+      </p>
+      <p><a href="javascript:unhideSocials()">Socials</a></p>
+      <div id="homepage-socials" class="hidden">
+        <strong>You can find me elsewhere at:</strong>
+        <ul>
+          <li>
+            <strong>E-Mail</strong>:
+            <a href="mailto:biscordbro@gmail.com" rel="me" class="u-email"
+              >biscordbro [AT] gmail</a
+            >
+          </li>
+          <li>
+            <strong>Fediverse</strong>:
+            <a href="https://lethallava.land/@t" rel="me">@t@lethallava.land</a>
+          </li>
+          <li>
+            <strong>GitHub</strong>:
+            <a href="https://github.com/roxwize" rel="me">roxwize</a>
+          </li>
+          <li>
+            <strong>IndieWeb</strong>:
+            <a href="https://indieweb.org/User:Roxwize.xyz" rel="me"
+              >Roxwize.xyz</a
+            >
+          </li>
+          <li>
+            <strong>Steam</strong>:
+            <a href="https://steamcommunity.com/id/roxwize/" rel="me"
+              >roxwize</a
+            >
+          </li>
+          <li>
+            <strong>YouTube</strong>:
+            <a href="https://www.youtube.com/@roxwize" rel="me">@roxwize</a>
+          </li>
+        </ul>
+      </div>
+      <br /><br /><span>
+        <img
+          src="static/img/logo.png"
+          width="25"
+          alt=""
+          class="u-logo"
+        /><br />&copy; roxwize 2023. Licensed under the
+        <a href="https://creativecommons.org/licenses/by/4.0"
+          >CC BY 4.0 license</a
+        >.
+      </span>
+      <a href="https://roxwize.xyz/" class="u-url u-uid"></a>
+    </div>
+  </body>
 </html>

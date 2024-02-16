@@ -1,6 +1,23 @@
 doctype html
 html(lang="en")
   head
+    script(type="text/javascript").
+      function _reload_theme() {
+        // load palette
+        let _t = localStorage.rxTheme;
+        if (!_t) localStorage.rxTheme = _t = "periwinkle";
+
+        const link = document.createElement("link");
+        link.type = "text/css";
+        link.rel = "stylesheet";
+        link.href = `/static/css/theme/t_${_t}.css`;
+        document.head.appendChild(link);
+      }
+      function _set_theme(theme) {
+        localStorage.rxTheme = theme;
+        _reload_theme();
+      }
+      _reload_theme();
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     script(src="https://code.jquery.com/jquery-3.6.1.min.js")
@@ -9,7 +26,6 @@ html(lang="en")
       if gm.summary
         meta(name="og:description", content=gm.summary)
       meta(name="theme-color", content="#896498")
-      link(rel="stylesheet", href="../static/css/palette.css")
       link(rel="stylesheet", href="../static/css/main.css")
       link(rel="webmention", href="https://webmention.io/roxwize.xyz/webmention")
       title #{title} &lt;- roxwize

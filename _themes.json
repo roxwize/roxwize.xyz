@@ -1,0 +1,43 @@
+[
+  {
+    "name": "periwinkle",
+    "palette": {
+      "bg": "#ecf0fd",
+      "fg": "#181c30",
+      "overlay": "#18171b",
+      "a": "#896498"
+    },
+    "source": {
+      "author": "182exe",
+      "author_url": "https://182exe.online/",
+      "palette_url": "https://lospec.com/palette-list/periwinkle-is-a-weird-word/"
+    }
+  },
+  {
+    "name": "live",
+    "palette": {
+      "bg": "#120e0f",
+      "fg": "#ffffff",
+      "overlay": "#dcccb3",
+      "a": "#3c3d35"
+    },
+    "source": {
+      "author": "The Designer's Republic (with some adaptations)",
+      "author_url": "https://www.thedesignersrepublic.com/"
+    }
+  },
+  {
+    "name": "homework",
+    "palette": {
+      "bg": "#e1d8d4",
+      "fg": "#12121b",
+      "overlay": "#878c9d",
+      "a": "#45568d"
+    },
+    "source": {
+      "author": "3dcrepper",
+      "author_url": "https://lospec.com/3dcrepper/",
+      "palette_url": "https://lospec.com/palette-list/homework/"
+    }
+  }
+]
