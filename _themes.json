@@ -1,11 +1,17 @@
 [
   {
     "name": "periwinkle",
+    "type": "light",
     "palette": {
       "bg": "#ecf0fd",
       "fg": "#181c30",
       "overlay": "#18171b",
       "a": "#896498"
+    },
+    "style": {
+      "link_underline": false,
+      "link_hover_underline": "use_animation",
+      "overlay_use_bg": true
     },
     "source": {
       "author": "182exe",
@@ -15,14 +21,20 @@
   },
   {
     "name": "live",
+    "type": "dark",
     "palette": {
       "bg": "#120e0f",
       "fg": "#ffffff",
-      "overlay": "#dcccb3",
-      "a": "#3c3d35"
+      "overlay": "#dcccb305",
+      "a": "#bbbdb3"
+    },
+    "style": {
+      "link_underline": true,
+      "link_hover_underline": "none",
+      "overlay_use_bg": false
     },
     "source": {
-      "author": "The Designer's Republic (with some adaptations)",
+      "author": "The Designer's Republic (with adaptations)",
       "author_url": "https://www.thedesignersrepublic.com/"
     }
   }

@@ -5,7 +5,7 @@ block append head
 
 block append content
   for post in data
-    .diary-entry
+    .diary-entry.overlay-container
       .diary-entry-title
         a(href=`./${post.title}.html`)= post.title
       .diary-entry-summary= post.summary

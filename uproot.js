@@ -148,12 +148,39 @@ async function getPalettes() {
   }
 
   for (let theme of themes) {
-    const css = `* {
-  --bg: ${theme.palette.bg};
-  --fg: ${theme.palette.fg};
-  --overlay: ${theme.palette.overlay};
-  --a: ${theme.palette.a};
-}`;
+    const styles = { "*": [], ["a:not(.nu)"]: [] };
+    // palette
+    for (let [k, v] of Object.entries(theme.palette)) {
+      styles["*"].push(`--${k}:${v}`);
+    }
+    // extra options
+    styles["a:not(.nu)"].push(
+      `text-decoration:${theme.style?.link_underline ? "underline" : "none"}`
+    );
+    if (theme.style?.link_hover_underline === "use_animation") {
+      styles["a:not(.nu)"].push("position:relative");
+      styles["a:not(.nu)::after"] = [
+        'content:""',
+        "position:absolute",
+        "left:0",
+        "width:0%",
+        "bottom:1%",
+        "height:7%",
+        "border-radius:4px",
+        "background-color:var(--a)",
+        "transition:200ms cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+      ];
+      styles["a:not(.nu):hover::after"] = ["width:100%"];
+    }
+
+    styles[".overlay-container"] = [
+      theme.style?.overlay_use_bg ? "color:var(--bg)" : "color:var(--fg)"
+    ];
+
+    // stringify styles
+    let css = `/* ${theme.name} */`;
+    for (let [el, style] of Object.entries(styles))
+      css += `${el}{${style.join(";") + ";"}}`;
     await fs.writeFile(`public/static/css/theme/t_${theme.name}.css`, css);
     console.log(`==\t\t/public/static/css/theme/t_${theme.name}.css`);
   }

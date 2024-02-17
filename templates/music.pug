@@ -14,7 +14,7 @@ block append content
               .release-title #{release.title} (#{release.releaseYear})
               .release-artist= release.artist
             .release-listen-date= release.listenedOn
-          .release-description
+          .release-description.overlay-container
             .release-review
               p(style="margin-top:0")!= release.description
               if release.databases.musicbrainz

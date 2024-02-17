@@ -11,9 +11,14 @@ html(lang="en")
         link.type = "text/css";
         link.rel = "stylesheet";
         link.href = `/static/css/theme/t_${_t}.css`;
+        link.id = `t-${_t}`;
         document.head.appendChild(link);
       }
       function _set_theme(theme) {
+        if (theme === localStorage.rxTheme) return;
+        // remove existing theme
+        const oldTheme = document.getElementById(`t-${localStorage.rxTheme}`);
+        if (oldTheme) oldTheme.remove();
         localStorage.rxTheme = theme;
         _reload_theme();
       }

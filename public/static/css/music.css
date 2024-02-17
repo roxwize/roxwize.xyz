@@ -48,8 +48,6 @@
   overflow: auto;
   flex-basis: 50%;
   font-size: smaller;
-  background-color: var(--overlay);
-  color: var(--bg);
   justify-content: flex-end;
 }
 .release-review {
