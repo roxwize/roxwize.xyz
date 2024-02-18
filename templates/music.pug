@@ -24,7 +24,10 @@ block append content
               if release.databases.bandcamp
                 a(href=release.databases.bandcamp) [bandcamp]&nbsp;
             .release-rating
-              span #{release.rating} / 7
+              if typeof release.rating === "object"
+                span #{release.rating[0]} / #{release.rating[1]}
+              else
+                span #{release.rating} / 7
               span.release-favtrack.
                 Favorite track: #[em #{release.favoriteTrack}]
         if release.addendum
