@@ -22,6 +22,7 @@ If you have any burning questions, please feel free to [email me](mailto:biscord
 **Album**: [Autechre &ndash; LP5](https://www.albumoftheyear.org/album/6863-autechre-lp5.php)<br>
 **Animal**: Cats meow meow<br>
 **Beatle**: John Lennon<br>
+**Bytebeat**: [gas station hotdog](https://www.reddit.com/r/bytebeat/comments/17kdo20/gas_station_hotdog/)<br>
 **Color**: Lavender<br>
 **Eeveelution**: Leafeon<br>
 **Fictional character**: Balrog from Cave Story probably<br>
