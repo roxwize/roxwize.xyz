@@ -33,7 +33,7 @@ If you have any burning questions, please feel free to [email me](mailto:biscord
 **Pie**: Pumpkin<br>
 **Pok&eacute;mon**: Raboot<br>
 **Programming language**: [Uiua](https://www.uiua.org/)<br>
-**Song**: Tied between [Autechre &ndash; Rae](https://www.youtube.com/watch?v=jWy9O6MdSJM) and [Autechre &ndash; all end](https://www.youtube.com/watch?v=duPQ87JLO8s)<br>
+**Song**: [Phoenix &ndash; Love Like a Sunset, Pt. 1](https://www.youtube.com/watch?v=m3rkRTygrSI)<br>
 **Source entity**: env_explosion<br>
 **Steam emoticon**: :winter2019neutralbulb:<br>
 **Time of day**: 2:52 PM<br>
