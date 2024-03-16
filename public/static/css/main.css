@@ -115,6 +115,12 @@ article footer img {
   background-color: var(--overlay);
 }
 
+.example {
+  border: 1px solid var(--fg);
+  padding: 0.25rem;
+  font-size: x-large;
+}
+
 @font-face {
   font-family: "t3t3";
   src: url("/static/fonts/t3t3.woff2") format("woff2"),

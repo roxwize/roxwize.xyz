@@ -1,0 +1,17 @@
+.decsinc-sites {
+  column-count: 3;
+  list-style-type: none;
+  font-size: larger;
+  margin-inline: 0;
+  padding-inline: 0;
+}
+.decsinc-logo {
+  width: 20px;
+  height: 20px;
+  image-rendering: pixelated;
+}
+.decsinc-site > a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
