@@ -29,6 +29,7 @@ If you have any burning questions, please feel free to [email me](mailto:biscord
 **Keyboard key**: F6<br>
 **Letter**: i (lowercase only)<br>
 **Movie**: [Vanilla Sky (2001)](https://www.imdb.com/title/tt0259711/)<br>
+**Music video**: [Radiohead - Push Pulk / Spinning Plates](https://www.youtube.com/watch?v=ih2Ftq3hJoI)<br>
 **Number**: 7<br>
 **Pie**: Pumpkin<br>
 **Pok&eacute;mon**: Raboot<br>
@@ -39,13 +40,13 @@ If you have any burning questions, please feel free to [email me](mailto:biscord
 **Time of day**: 2:52 PM<br>
 **Candy**: Swedish Fish(?)<br>
 **Valve game**: Portal 2<br>
-**Video essay**: [Art, Furries, God](https://youtu.be/LOGgqym6Nks)<br>
+**Video essay**: [Art, Furries, God](https://www.youtube.com/watch?v=LOGgqym6Nks)<br>
 **Video game**: [Yume 2kki](https://ynoproject.net/2kki/)<br>
 **Video game soundtrack**: [Marskye &ndash; GNOG](https://marskye.bandcamp.com/album/gnog)<br>
 **Wikipedia article**: [L-system](https://en.wikipedia.org/wiki/L-system)<br>
 **Word**: Pebnoe<br>
 **YouTube channel**: [The Coding Train](https://www.youtube.com/@TheCodingTrain)<br>
-**YouTube video**: [The Glorious Octagon of Destiny](https://youtu.be/ddWJatRxfz8)
+**YouTube video**: [The Glorious Octagon of Destiny](https://www.youtube.com/watch?v=ddWJatRxfz8)
 
 ### Programming
 
