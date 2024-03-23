@@ -11,11 +11,11 @@ I'm roxwize. I am a guy(?), late 15s, I live in the United States. I write code 
 
 I've not been diagnosed with anything due to a lack of access to any sort of therapy or psychiatry so I can't tell you what repertoire of mental illnesses I have (if any), but I _can_ tell you that my attention span is SHIT. Please excuse any consistencies displayed in this website or in my behavior. It is all natural, of course. As I write this (February 11, 2024) I am stalling on an important exam due tonight! Marvelous!
 
-I learned how to code sometime around late 2020 (thank you, [Jonas Schmedtmann](https://codingheroes.io/)) and it has completely enveloped me. My main hobbies are some sort of intersection between programming and art; generative art and music has and will remain to be my favorite thing to make. If you're interested in finding me elsewhere, my socials are on the index page. Good luck. Don't die. I LOVE YOU.
+I learned how to code sometime around late 2020 (from [Jonas Schmedtmann](https://codingheroes.io/)'s JavaScript course) and it has completely enveloped me. My main hobbies are some sort of intersection between programming and art; generative art and music has and will remain to be my favorite thing to make. If you're interested in finding me elsewhere, my socials are on the index page. Good luck. Don't die. I LOVE YOU.
 
 Minimalism is my life. The Designers Republic makes the only modern art I can stand to look at. [My taste in music](#rh-music) is similarly pretentious. Here's my last.fm if you're curious :3 [https://www.last.fm/user/thekillective](https://www.last.fm/user/thekillective)
 
-If you have any burning questions, please feel free to [email me](mailto:biscordbro@gmail.com).
+If you have any burning questions, please feel free to [email me](mailto:roxwize@proton.me).
 
 ### What is your favorite...?
 
