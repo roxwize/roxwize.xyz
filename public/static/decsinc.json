@@ -19,5 +19,10 @@
       "0011111100"
     ],
     "mode": "active"
+  },
+  {
+    "href": "interestingzinc.xyz",
+    "icon": ["01110", "10001", "10101", "10101", "01110"],
+    "mode": "active"
   }
 ]
