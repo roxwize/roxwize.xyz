@@ -15,7 +15,7 @@ I learned how to code sometime around late 2020 (from [Jonas Schmedtmann](https:
 
 Minimalism is my life. The Designers Republic makes the only modern art I can stand to look at. [My taste in music](#rh-music) is similarly pretentious. Here's my last.fm if you're curious :3 [https://www.last.fm/user/thekillective](https://www.last.fm/user/thekillective)
 
-If you have any burning questions, please feel free to [email me](mailto:roxwize@proton.me).
+If you have any burning questions, please feel free to [email me](mailto:rx@roxwize.xyz).
 
 ### What is your favorite...?
 

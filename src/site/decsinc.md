@@ -37,7 +37,7 @@ If you want an icon make sure you can actually display it. **Having an icon is s
 
 ### Shoot me an e-mail
 
-Now [email me](mailto:roxwize@proton.me) that you want your site added. You should give the the link to the page _that decsinc will be embedded on_, not just your site's index page. Remember to include the binary data for the icon you created (if you have one).
+Now [email me](mailto:rx@roxwize.xyz) that you want your site added. You should give the the link to the page _that decsinc will be embedded on_, not just your site's index page. Remember to include the binary data for the icon you created (if you have one).
 
 After awhile I'll add your site to the ring in a "standby" mode until you add the embed to your website, then I'll make it active and navigable. Email me when you add the embed so I know when to switch it over to the active mode.
 
@@ -49,7 +49,7 @@ The way that you embed decsinc is up to you! The only guidelines are that there 
 - your website's icon, or a blank square (can be outlined, filled, dotted, etc. as well as have rounded corners) inbetween the `--` and `++` _that leads to [this page](https://roxwize.xyz/site/decsinc.html)_. If you have an icon you need to display it here. It can be visualized in any way you see fit as long as it clearly matches the one on record (i.e. it's not hard to identify, so stuff like ASCII art or rounded corners is fine). If you don't have an icon then you can use anything you want in place of the symbol.
 - a `++` on the right that leads to the next page (https://roxwize.xyz/ext/decsinc/next.html?id=[YOUR PAGE ID])
 
-If you have any questions about embedding it, don't know how to, or anything of that sort, [email me](mailto:roxwize@proton.me) and I'll help you out in whatever way I can.
+If you have any questions about embedding it, don't know how to, or anything of that sort, [email me](mailto:rx@roxwize.xyz) and I'll help you out in whatever way I can.
 
 #### Embed examples
 

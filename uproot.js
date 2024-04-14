@@ -97,7 +97,7 @@ async function getBlogPosts() {
     },
     author: {
       name: "roxwize",
-      email: "biscordbro@gmail.com",
+      email: "rx@roxwize.xyz",
       link: "https://roxwize.xyz/"
     }
   });
