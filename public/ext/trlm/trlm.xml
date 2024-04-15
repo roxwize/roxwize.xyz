@@ -20,7 +20,7 @@
 ]>
 <linkset>
   <category name="Technology">
-    <link ref="caveatemptor.dev"/>
+    <link ref="caveat.cc"/>
   </category>
   <category name="Art">
   </category>
@@ -30,7 +30,7 @@
     <link href="http://sniper.xproot.pw/">IdioticSniper's Website</link>
     <link href="https://keyaira.com/">keyaira.com</link>
     <link href="https://ha1iiid3enz.carrd.co/" title="haidens website" style="@import url('https://fonts.googleapis.com/css2?family=Silkscreen&amp;display=swap');!{font-family:'Silkscreen';color:#cc0000;}">haiden.exe</link>
-    <link href="https://caveatemptor.dev/" id="caveatemptor.dev">caveatemptor.dev</link>
+    <link href="https://caveat.cc/" id="caveat.cc">caveat.cc</link>
     <link href="https://oerrorpage.neocities.org/">oerrorpage</link>
   </category>
 </linkset>
