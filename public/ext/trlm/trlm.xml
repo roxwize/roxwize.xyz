@@ -21,10 +21,14 @@
 <linkset>
   <category name="Technology">
     <link ref="caveat.cc"/>
+    <link ref="https://thepersonever.net/" title="flashes, devlogs, and javascript oh my... remember 2 clear ur cache!" style="@import url('https://thepersonever.net/pfps/notactually/roxwize.css')" class="tpelink">thepersonever!</link>
   </category>
   <category name="Art">
+    <link ref="https://thepersonever.net/" title="drawings, gifs, and pencils oh my... remember 2 clear ur cache!" style="@import url('https://thepersonever.net/pfps/notactually/roxwize.css')" class="tpelink">thepersonever!</link>
+    <!-- sorry i have literally everything i do on tpe from horrible music to horrible drawings -->
   </category>
   <category name="Music">
+    <link ref="https://thepersonever.net/" title="soundfonts, disortion, and open-source programs oh my... remember 2 clear ur cache!" style="@import url('https://thepersonever.net/pfps/notactually/roxwize.css')" class="tpelink">thepersonever!</link>
   </category>
   <category name="GeneralAndPersonal">
     <link href="http://sniper.xproot.pw/">IdioticSniper's Website</link>
