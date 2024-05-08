@@ -21,11 +21,15 @@ If you have any burning questions, please feel free to [email me](mailto:rx@roxw
 
 **Album**: [Autechre &ndash; LP5](https://www.albumoftheyear.org/album/6863-autechre-lp5.php)<br>
 **Animal**: Cats meow meow<br>
+**Animal Crossing villager**: [Sasha](https://nookipedia.com/wiki/Sasha) (also [Bob](https://nookipedia.com/wiki/Bob)?)
+**Anime**: Neon Genesis Evangelion (haven't watched any others)
 **Beatle**: John Lennon<br>
 **Bytebeat**: [gas station hotdog](https://www.reddit.com/r/bytebeat/comments/17kdo20/gas_station_hotdog/)<br>
 **Color**: Lavender<br>
 **Eeveelution**: Leafeon<br>
 **Fictional character**: Balrog from Cave Story probably<br>
+**Fruit**: Banana<br>
+**Gatorade flavor**: Glacier Cherry&reg;<br>
 **Keyboard key**: F6<br>
 **Letter**: i (lowercase only)<br>
 **Movie**: [Vanilla Sky (2001)](https://www.imdb.com/title/tt0259711/)<br>
@@ -38,6 +42,7 @@ If you have any burning questions, please feel free to [email me](mailto:rx@roxw
 **Source entity**: env_explosion<br>
 **Steam emoticon**: :winter2019neutralbulb:<br>
 **Time of day**: 2:52 PM<br>
+**TV show**: The Office (US)
 **Candy**: Swedish Fish(?)<br>
 **Valve game**: Portal 2<br>
 **Video essay**: [Art, Furries, God](https://www.youtube.com/watch?v=LOGgqym6Nks)<br>
