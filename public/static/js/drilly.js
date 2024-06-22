@@ -25,22 +25,22 @@ function totally_garnular() {
   setInterval(() => {
     if (Math.random() < 0.75 || hidden) return;
     adlib();
-  }, 5000);
+  }, 8000);
 
   speak("hello");
 }
 
 function adlib() {
-  speak(`giggle${Math.floor(Math.random() * 3 + 1)}`);
+  speak(`giggle${Math.floor(Math.random() * 3 + 1)}`, true);
 }
 
 function set_expression(expression) {
   el_drilly.src = `../static/img/drilly/${expression}.gif`;
 }
 
-function speak(file) {
+function speak(file, giddy) {
   el_sound_player.src = `../static/sound/drilly/${file}.mp3`;
   el_sound_player.load();
-  set_expression("yapping");
+  set_expression(giddy ? "happy" : "yapping");
   el_sound_player.play();
 }
