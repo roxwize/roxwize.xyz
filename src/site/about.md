@@ -27,7 +27,7 @@ If you have any burning questions, please feel free to [email me](mailto:rx@roxw
 **Bytebeat**: [gas station hotdog](https://www.reddit.com/r/bytebeat/comments/17kdo20/gas_station_hotdog/)<br>
 **Color**: Lavender<br>
 **Eeveelution**: Leafeon<br>
-**Fictional character**: Balrog from Cave Story probably<br>
+**Fictional character**: <a href="javascript:totally_garnular();">Drilly from Garn47</a><br>
 **Fruit**: Banana<br>
 **Gatorade flavor**: Glacier Cherry&reg;<br>
 **Keyboard key**: F6<br>
@@ -70,3 +70,5 @@ Portal 2 is probably one of my favorite video games next to OneShot and Yume 2kk
 # Web memorabilia
 
 <a href="https://tamanotchi.world/8684c"><img src="https://tamanotchi.world/i2/8684" alt="It's tamaNOTchi! Click to feed!"></a>
+
+<script src="../static/js/drilly.js"></script>

@@ -9,6 +9,7 @@ body {
   font-size: 9pt;
   background-color: var(--bg);
   color: var(--fg);
+  overflow: hidden;
 }
 a {
   font-weight: bold;
@@ -176,4 +177,16 @@ article footer img {
 
 .mood > a {
   height: 15px;
+}
+
+#drilly {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 74px;
+  image-rendering: pixelated;
+  transition: 100ms linear;
+}
+#drilly.drilly-hidden {
+  bottom: -74px;
 }
