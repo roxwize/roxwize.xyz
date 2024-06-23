@@ -14,7 +14,7 @@ function totally_garnular() {
   el_drilly = document.createElement("img");
   el_drilly.id = "drilly";
   el_drilly.alt = "DRILLYYYYY!!!!!!!";
-  el_drilly.onclick = () => adlib(3);
+  el_drilly.onclick = () => adlib(/*3*/);
   document.body.appendChild(el_drilly);
 
   el_sound_player = document.createElement("audio");
@@ -30,7 +30,7 @@ function totally_garnular() {
   speak("hello");
 }
 
-function adlib(max = 6) {
+function adlib(max = 16) {
   const num = Math.floor(Math.random() * max + 1);
   speak(`idle${num}`, num <= 3);
 }
