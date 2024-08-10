@@ -1,7 +1,6 @@
 extends site.pug
 
 block append head
-  link(rel="stylesheet", href="../static/css/universe.css")
   //- Drilly stuff
   link(rel="preload", href="../static/sound/drilly/hello.mp3", as="audio")
   link(rel="preload", href="../static/img/drilly/yapping.gif", as="image")
@@ -17,7 +16,7 @@ block append content
         for button in buttonGroup
           .btn
             a(href=button.l)
-              img(src=`/static/img/btns/${button.i}`,alt=button.t,title=button.t)
+              img(src=`/static/img/btns/${button.i}`,alt=button.t,title=button.t,width=88,height=31)
     a.subtitle(href="https://poignant.guide/book/chapter-7.html")
       | CHECK THAT OUT!&nbsp;
       strong YAH!

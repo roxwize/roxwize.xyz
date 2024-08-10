@@ -176,6 +176,10 @@ async function getPalettes() {
     styles[".overlay-container"] = [
       theme.style?.overlay_use_bg ? "color:var(--bg)" : "color:var(--fg)"
     ];
+    styles["#theme-credits > div"] = styles[".overlay-container"];
+
+    styles["body"] = [`background-image: url(/static/img/${theme.style?.bg_image_primary})`];
+    styles["#sidebar"] = [`background-image: url(/static/img/${theme.style?.bg_image_secondary})`];
 
     // stringify styles
     let css = `/* ${theme.name} */`;

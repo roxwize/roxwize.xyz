@@ -11,7 +11,9 @@
     "style": {
       "link_underline": false,
       "link_hover_underline": "use_animation",
-      "overlay_use_bg": true
+      "overlay_use_bg": true,
+      "bg_image_primary": "bg0.png",
+      "bg_image_secondary": "bg1.png"
     },
     "source": {
       "author": "182exe",
@@ -20,22 +22,25 @@
     }
   },
   {
-    "name": "live",
+    "name": "periwinkle dark",
     "type": "dark",
     "palette": {
-      "bg": "#120e0f",
-      "fg": "#ffffff",
-      "overlay": "#dcccb305",
-      "a": "#bbbdb3"
+      "bg": "#101512",
+      "fg": "#ecf0fd",
+      "overlay": "#152224",
+      "a": "#6b7598"
     },
     "style": {
       "link_underline": true,
       "link_hover_underline": "none",
-      "overlay_use_bg": false
+      "overlay_use_bg": false,
+      "bg_image_primary": "bg1.png",
+      "bg_image_secondary": "bg0.png"
     },
     "source": {
-      "author": "The Designer's Republic (with adaptations)",
-      "author_url": "https://www.thedesignersrepublic.com/"
+      "author": "182exe",
+      "author_url": "https://182exe.online/",
+      "palette_url": "https://lospec.com/palette-list/periwinkle-is-a-weird-word/"
     }
   }
 ]
