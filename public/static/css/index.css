@@ -1,38 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 body {
-  font-family: "Montserrat", sans-serif;
   margin: 0;
+  background-color: var(--bg);
+  background-image: none;
+  overflow: hidden;
+  text-align: center;
+  color: var(--fg);
+  font-family: "Montserrat", sans-serif;
   font-size: 9pt;
   font-weight: bold;
-  text-align: center;
-  background-color: var(--bg);
-  color: var(--fg);
 }
 a {
   text-decoration: none;
   color: var(--a);
 }
-a:hover {
-  font-weight: normal;
-}
 #content {
-  position: absolute;
-  width: 100%;
-  height: 100%;
   display: flex;
+  position: absolute;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  width: 100%;
+  height: 100%;
 }
 #logo {
+  text-decoration: underline;
   font-family: "t3t3", monospace;
-  font-size: 60pt;
+  font-size: 17.5vw;
+}
+#logo:hover {
+  color: var(--fg);
+}
+#splashtop {
+  font-family: "t3t3", monospace;
+  font-size: 5vw;
+}
+#splashbtm {
+  font-family: "t3t3", monospace;
+  font-size: 5vw;
 }
 .hidden {
   display: none;
-  opacity: 0;
   visibility: hidden;
+  opacity: 0;
 }
 #homepage-socials {
   text-align: left;
@@ -52,8 +63,8 @@ a:hover {
 
 @font-face {
   font-family: "t3t3";
-  src: url("/static/fonts/t3t3.woff2") format("woff2"),
-    url("/static/fonts/t3t3.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  src: url("/static/fonts/t3t3.woff2") format("woff2"),
+    url("/static/fonts/t3t3.woff") format("woff");
 }

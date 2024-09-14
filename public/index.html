@@ -5,7 +5,7 @@
       function _reload_theme() {
         // load palette
         let _t = localStorage.rxTheme;
-        if (!_t) localStorage.rxTheme = _t = "periwinkle";
+        if (!_t) localStorage.rxTheme = _t = "periwinkle dark";
 
         const link = document.createElement("link");
         link.type = "text/css";
@@ -23,129 +23,23 @@
       href="https://webmention.io/roxwize.xyz/webmention"
     />
     <link rel="pgpkey" type="application/pgp-keys" href="/static/key.txt" />
+    <link href="https://lethallava.land/@t" rel="me" />
+    <link href="https://github.com/roxwize" rel="me" />
+    <link href="mailto:rx@roxwize.xyz" rel="me" class="u-email" />
   </head>
   <body>
     <div id="content" class="h-card">
+      <div id="splashtop"></div>
       <a id="logo" href="site/home.html" class="p-nickname nu">roxwize</a>
-      <em>
-        <span class="p-note">teenage programming scum</span>
-        | <span class="p-pronouns u-pronoun">any pronouns</span> |
-        <span class="p-category">programmer</span>,
-        <span class="p-category">artist</span>,
-        <span class="p-category">musician</span>
-      </em>
-      <p>
-        Click on the above to enter the website.<br />
-        This is not a Web 1.0 site. Certain features will not work on older
-        browsers. Built for a 1600x900px monitor.
-      </p>
-      <p>
-        There is also a lot of mild-to-strong profanity and teen angst here. You
-        may or may not find this a good thing.
-      </p>
-      <p>
-        <a href="https://lospec.com/palette-list/periwinkle-is-a-weird-word"
-          >Website color palette</a
-        >
-        created by <a href="https://182exe.online/">182exe</a>.
-      </p>
-      <p><a href="javascript:unhideSocials()">Socials</a></p>
-      <div id="homepage-socials" class="hidden">
-        <strong>You can find me elsewhere at:</strong>
-        <ul>
-          <li>
-            <strong>E-Mail</strong>:
-            <a href="mailto:rx@roxwize.xyz" rel="me" class="u-email"
-              >rx@roxwize.xyz</a
-            >
-          </li>
-          <li>
-            <strong>Fediverse</strong>:
-            <a href="https://lethallava.land/@t" rel="me">@t@lethallava.land</a>
-          </li>
-          <li>
-            <strong
-              ><a href="https://bandcamp.com/thekifake" rel="me"
-                >Bandcamp</a
-              ></strong
-            >
-          </li>
-          <li>
-            <strong
-              ><a href="https://www.bitview.net/user/hoylecake" rel="me"
-                >BitView</a
-              ></strong
-            >
-          </li>
-          <li>
-            <strong
-              ><a href="https://github.com/roxwize" rel="me">GitHub</a></strong
-            >
-          </li>
-          <li>
-            <strong>
-              <a href="https://scrapbook.hackclub.com/roxwize/" rel="me">Hack Club Scrapbook</a>
-            </strong>
-          </li>
-          <li>
-            <strong
-              ><a href="https://www.imood.com/users/hoylecake/" rel="me"
-                >imood.com</a
-              ></strong
-            >
-          </li>
-          <li>
-            <strong
-              ><a href="https://indieweb.org/User:Roxwize.xyz" rel="me"
-                >IndieWeb</a
-              ></strong
-            >
-          </li>
-          <li>
-            <strong
-              ><a href="https://www.last.fm/user/thekillective" rel="me"
-                >last.fm</a
-              ></strong
-            >
-          </li>
-          <li>
-            <strong
-              ><a href="https://letterboxd.com/roxwize/">Letterboxd</a></strong
-            >
-          </li>
-          <li>
-            <strong
-              ><a href="https://steamcommunity.com/id/roxwize/" rel="me"
-                >Steam</a
-              ></strong
-            >
-          </li>
-          <li>
-            <strong
-              ><a href="https://toyhou.se/roxwize/" rel="me"
-                >Toyhouse</a
-              ></strong
-            >
-          </li>
-          <li>
-            <strong
-              ><a href="https://www.youtube.com/@roxwize" rel="me"
-                >YouTube</a
-              ></strong
-            >
-          </li>
-        </ul>
-      </div>
-      <p><a href="/key.txt">Public Key</a></p>
-      <br /><br />
-      <span>
+      <div id="splashbtm"></div>
+      <!-- <span>
         <br />&copy; roxwize 2023&mdash;2024. Licensed under the
         <a href="https://creativecommons.org/licenses/by/4.0"
           >CC BY 4.0 license</a
         >.
       </span>
       <a href="https://roxwize.xyz/" class="u-url u-uid"></a>
-      <!-- decsinc -->
+      decsinc
       <div id="decsinc">
         <a href="https://roxwize.xyz/ext/decsinc/prev.html?id=0">--</a>
         <a href="https://roxwize.xyz/site/decsinc.html">
@@ -157,13 +51,8 @@
           />
         </a>
         <a href="https://roxwize.xyz/ext/decsinc/next.html?id=0">++</a>
-      </div>
+      </div> -->
     </div>
-    <script>
-      const s = document.getElementById("homepage-socials");
-      function unhideSocials() {
-        s.classList.toggle("hidden");
-      }
-    </script>
+    <script src="static/js/index.js"></script>
   </body>
 </html>
