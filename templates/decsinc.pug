@@ -7,10 +7,11 @@ block append content
     ul.decsinc-sites
         for site, idx in data
             li.decsinc-site(data-id=idx)
-                a(href=`https://${site.href}/`)
+                a(href=`https://${site.href}`)
                     if site.icon !== "none"
                         canvas.decsinc-logo(data-rows=site.icon.join(" "),width=80,height=80)
-                    | #{site.href}
+                    //- Don't really like how this has to be done twice
+                    | #{site.href.substring(0, site.href.indexOf("/") < 0 ? site.href.length : site.href.indexOf("/"))}
     script.
         document.addEventListener("DOMContentLoaded", () => {
             document.querySelectorAll("canvas").forEach((el) => {

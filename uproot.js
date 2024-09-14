@@ -153,6 +153,9 @@ async function getPalettes() {
     for (let [k, v] of Object.entries(theme.palette)) {
       styles["*"].push(`--${k}:${v}`);
     }
+    if (theme.type === "dark") {
+      styles[".decsinc-logo"] = ["filter: invert();"]
+    }
     // extra options
     styles["a:not(.nu)"].push(
       `text-decoration:${theme.style?.link_underline ? "underline" : "none"}`

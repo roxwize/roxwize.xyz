@@ -1,6 +1,6 @@
 ---
   title: Home
-  summary: This is the home of roxwize ...
+  summary: This is the home of roxwize!!
 ---
 
 Hi, this is <span class="t3t3">roxwize</span>. I am a nonbinary [purple-ish cat-rabbit](me.html) who sucks at programming. This is my website, and I love you!
@@ -11,6 +11,19 @@ This place serves as a repository to store that which piques my interest. Expect
 
 <img src="../static/img/button.png" alt="Website button (periwinkle)" title="Website button (periwinkle)" class="btn" />
 <img src="../static/img/button_live.png" alt="Website button (live)" title="Website button (live)" class="btn" />
+
+<p id="decsinc">
+  <a href="https://roxwize.xyz/ext/decsinc/prev.html?id=0">--</a>
+  <a href="https://roxwize.xyz/site/decsinc.html">
+    <img
+      src="../static/img/logo.png"
+      width="25"
+      alt="decsinc"
+      class="u-logo decsinc-logo"
+    />
+  </a>
+  <a href="https://roxwize.xyz/ext/decsinc/next.html?id=0">++</a>
+</p>
 
 [< prev](https://webring.interestingzinc.xyz/prev?from=https://roxwize.xyz/site/home) | [what webring?](https://webring.interestingzinc.xyz/list) | [next >](https://webring.interestingzinc.xyz/next?from=https://roxwize.xyz/site/home)
 

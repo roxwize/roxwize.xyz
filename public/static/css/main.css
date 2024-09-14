@@ -105,7 +105,7 @@ h6 {
   font-weight: normal;
 }
 .hidden {
-  display: none;
+  display: none !important;
   visibility: hidden;
   opacity: 0;
 }
@@ -121,6 +121,13 @@ article footer img {
 }
 .overlay-container {
   background-color: var(--overlay);
+}
+#decsinc {
+  display: flex;
+  align-items: center;
+  font-family: "t3t3", monospace;
+  font-size: large;
+  gap: 8px;
 }
 
 .example {
