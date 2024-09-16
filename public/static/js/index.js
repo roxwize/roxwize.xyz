@@ -22,7 +22,8 @@ const lines = [
   ["minn besti", "vinur hverju", "sem dynur"],
   ["turn it on", "tune it in", "and stay inert"],
   ["this", "dread", "circumference"],
-  ["like", "spinning", "plates"]
+  ["like", "spinning", "plates"],
+  ["same", "as", "above"]
 ]
 
 const line = lines[Math.floor(Math.random() * lines.length)];
