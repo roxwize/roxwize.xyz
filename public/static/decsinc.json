@@ -5,7 +5,9 @@
     "mode": "active"
   },
   {
-    "mode": "inactive"
+    "href": "rslp.org/~omr",
+    "text": "rslp.org/~omr",
+    "mode": "active"
   },
   {
     "href": "interestingzinc.xyz",
@@ -26,11 +28,6 @@
       "0000000100",
       "0000000000"
     ],
-    "mode": "active"
-  },
-  {
-    "href": "rslp.org/~omr",
-    "text": "rslp.org/~omr",
     "mode": "active"
   }
 ]
