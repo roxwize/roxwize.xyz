@@ -45,9 +45,9 @@ After awhile I'll add your site to the ring in a "standby" mode until you add th
 
 The way that you embed decsinc is up to you! The only guidelines are that there must be:
 
-- a `--` on the left that leads to the previous page (https://roxwize.xyz/ext/decsinc/prev.html?id=[YOUR PAGE ID])
+- a `--` on the left that leads to the previous page (`https://roxwize.xyz/ext/decsinc/prev.html?id=[YOUR PAGE ID]`)
 - your website's icon, or a blank square (can be outlined, filled, dotted, etc. as well as have rounded corners) inbetween the `--` and `++` _that leads to [this page](https://roxwize.xyz/site/decsinc.html)_. If you have an icon you need to display it here. It can be visualized in any way you see fit as long as it clearly matches the one on record (i.e. it's not hard to identify, so stuff like ASCII art or rounded corners is fine). If you don't have an icon then you can use anything you want in place of the symbol.
-- a `++` on the right that leads to the next page (https://roxwize.xyz/ext/decsinc/next.html?id=[YOUR PAGE ID])
+- a `++` on the right that leads to the next page (`https://roxwize.xyz/ext/decsinc/next.html?id=[YOUR PAGE ID]`)
 
 If you have any questions about embedding it, don't know how to, or anything of that sort, [email me](mailto:rx@roxwize.xyz) and I'll help you out in whatever way I can.
 

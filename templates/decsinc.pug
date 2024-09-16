@@ -8,8 +8,7 @@ block append content
         for site, idx in data
             li.decsinc-site(data-id=idx)
                 a(href=`https://${site.href}`)
-                    if site.icon !== "none"
-                        canvas.decsinc-logo(data-rows=site.icon.join(" "),width=80,height=80)
+                    canvas.decsinc-logo(data-rows=site.icon ? site.icon.join(" ") : "",width=80,height=80)
                     //- Don't really like how this has to be done twice
                     | #{site.href.substring(0, site.href.indexOf("/") < 0 ? site.href.length : site.href.indexOf("/"))}
     script.
