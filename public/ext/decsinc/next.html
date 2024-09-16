@@ -37,6 +37,7 @@
               const s = json[i === json.length - 1 ? 0 : ++i];
               if (s.mode === "active") site = s;
             }
+            alert(`i am ....trying my best .....\n\ncurrent index: ${i}\ncurrent site: ${JSON.stringify(site)}`)
 
             status.innerHTML = `Redirecting you to <a href="https://${site.href}">${site.href}</a>...<br><br>Click the above link if you're not redirected automatically.<br><br>Thanks for using <a href="https://roxwize.xyz/site/decsinc.html">decsinc</a>!`;
             window.location.replace(`https://${site.href}`);
