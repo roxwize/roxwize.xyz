@@ -10,10 +10,41 @@
     >
     <p id="status"></p>
     <script>
-      //! STUPID STUPID FUCKING NEOCITIES SHIT.
-      //! just remove this and put the old next.html back when you end up moving to nekoweb or some shit.
-      //! DONT CHANGE YOUR LINKS TO GO TO /next/ OR /prev/ INSTEAD. DONT DO THAT.
-      window.location.replace("https://roxwize.xyz/ext/decsinc/prev/" + window.location.search);
+      (function () {
+        const status = document.getElementById("status");
+        const params = new URLSearchParams(window.location.search);
+        let id = parseInt(params.get("id"));
+        if (isNaN(id)) {
+          status.textContent = `Invalid ID (${params.get("id")})`;
+          return;
+        }
+        fetch("/static/decsinc.json")
+          .then((res) => {
+            if (res.status !== 200) {
+              status.textContent = `Got code ${res.status} instead of 200, try again or report it on <a href="https://github.com/roxwize/roxwize.xyz/">the repository</a>`;
+              return;
+            }
+            return res.json();
+          })
+          .then((json) => {
+            if (id >= json.length || id < 0) {
+              status.textContent = `ID out of range (${id})`;
+              return;
+            }
+
+            let i = id, site;
+            while (!site) {
+              const s = json[i === 0 ? json.length - 1 : --i];
+              if (s.mode === "active") site = s;
+            }
+
+            status.innerHTML = `Redirecting you to <a href="https://${site.href}">${site.href}</a>...<br><br>Click the above link if you're not redirected automatically.<br><br>Thanks for using <a href="https://roxwize.xyz/site/decsinc.html">decsinc</a>!`;
+            window.location.replace(`https://${site.href}`);
+          })
+          .catch((err) => {
+            status.innerHTML = `Failed to get the adjacent website, try again or report it on <a href="https://github.com/roxwize/roxwize.xyz/">the repository</a><br><br>Error details:<br>${err}`;
+          });
+      })();
     </script>
   </body>
 </html>
