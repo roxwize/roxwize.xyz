@@ -10,7 +10,7 @@ block append content
                 a(href=`https://${site.href}`)
                     canvas.decsinc-logo(data-rows=site.icon ? site.icon.join(" ") : "",width=80,height=80)
                     //- Don't really like how this has to be done twice
-                    | #{site.href.substring(0, site.href.indexOf("/") < 0 ? site.href.length : site.href.indexOf("/"))}
+                    | #{site.text || site.href.substring(0, site.href.indexOf("/") < 0 ? site.href.length : site.href.indexOf("/"))}
     script.
         document.addEventListener("DOMContentLoaded", () => {
             document.querySelectorAll("canvas").forEach((el) => {
