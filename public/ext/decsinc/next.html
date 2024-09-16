@@ -32,10 +32,11 @@
               return;
             }
 
-            let next;
-            if (id === json.length - 1) next = 0;
-            else next = id + 1;
-            const site = json[next];
+            let i = id, site;
+            while (!site) {
+              const s = json[i === json.length - 1 ? 0 : ++i];
+              if (s.mode === "active") site = s;
+            }
 
             status.innerHTML = `Redirecting you to <a href="https://${site.href}">${site.href}</a>...<br><br>Click the above link if you're not redirected automatically.<br><br>Thanks for using <a href="https://roxwize.xyz/site/decsinc.html">decsinc</a>!`;
             window.location.replace(`https://${site.href}`);
