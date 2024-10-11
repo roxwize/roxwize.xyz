@@ -7,6 +7,12 @@ const lines = [
   ["teenage", "programming", "scum"],
   ["teenage", "programming", "scum"],
   ["teenage", "programming", "scum"],
+  ["teenage", "programming", "scum"],
+  ["teenage", "programming", "scum"],
+  ["teenage", "programming", "scum"],
+  ["teenage", "programming", "scum"],
+  ["teenage", "programming", "scum"],
+  ["teenage", "programming", "scum"],
   ["it's whatever", "you say", "it is"],
   ["in", "split", "infinity"],
   ["this", "must", "be"],
@@ -23,7 +29,14 @@ const lines = [
   ["turn it on", "tune it in", "and stay inert"],
   ["this", "dread", "circumference"],
   ["like", "spinning", "plates"],
-  ["same", "as", "above"]
+  ["same", "as", "above"],
+  ["you'll catch", "a jpeg", "to the head"],
+  ["i", "love", "rivulet"],
+  ["now", "i can", "hibernate!"],
+  ["fast", "frustrating", "fun"],
+  ["a looking", "around", "simulator"],
+  ["meow", "meow", "meow"],
+  ["got the", "dna of", "gothic lemons"]
 ]
 
 const line = lines[Math.floor(Math.random() * lines.length)];
