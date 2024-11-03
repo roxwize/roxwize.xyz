@@ -4,6 +4,7 @@
 .release {
   display: flex;
   flex-direction: column;
+  color: var(--bg);
 }
 .release-info {
   display: flex;
@@ -13,7 +14,6 @@
   aspect-ratio: 1/1;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 10px;
-  color: var(--bg);
   justify-content: space-evenly;
   align-items: center;
 }
@@ -73,13 +73,10 @@
 }
 .release-addendum {
   display: flex;
-  color: var(--bg);
 }
 .release-addendum > .label {
   flex-shrink: 1;
-  border-width: 0 0 4px 0;
-  border-style: solid;
-  border-color: var(--bg);
+  margin-bottom: 12px;
   background-color: var(--overlay);
   padding: 1rem;
   width: 10rem;
@@ -88,9 +85,7 @@
 }
 .release-addendum-content {
   flex-basis: 50%;
-  border-width: 0 0 4px 0;
-  border-style: solid;
-  border-color: var(--bg);
+  margin-bottom: 12px;
   background-color: var(--overlay);
   padding: 1rem;
   padding-right: 0.5em;
