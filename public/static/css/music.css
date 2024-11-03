@@ -20,9 +20,9 @@
 .release-main {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   align-items: center;
   font-weight: bold;
-  flex-grow: 1;
 }
 .release-title {
   font-size: larger;
@@ -43,12 +43,12 @@
 }
 .release-description {
   display: flex;
+  flex-basis: 50%;
   flex-direction: column;
+  justify-content: flex-end;
   padding: 1em;
   overflow: auto;
-  flex-basis: 50%;
   font-size: smaller;
-  justify-content: flex-end;
 }
 .release-review {
   flex: 1 1 auto;
@@ -76,26 +76,26 @@
   color: var(--bg);
 }
 .release-addendum > .label {
-  width: 10rem;
   flex-shrink: 1;
-  padding: 1rem;
-  background-color: #181c30ee;
-  border-color: var(--overlay);
-  border-width: 3px 0 3px 3px;
+  border-width: 0 0 4px 0;
   border-style: solid;
+  border-color: var(--bg);
+  background-color: var(--overlay);
+  padding: 1rem;
+  width: 10rem;
   font-size: larger;
   font-weight: bold;
 }
 .release-addendum-content {
   flex-basis: 50%;
-  font-size: smaller;
+  border-width: 0 0 4px 0;
+  border-style: solid;
+  border-color: var(--bg);
+  background-color: var(--overlay);
+  padding: 1rem;
   padding-right: 0.5em;
   text-align: justify;
-  padding: 1rem;
-  background-color: #181c30ee;
-  border-color: var(--overlay);
-  border-width: 3px 3px 3px 0;
-  border-style: solid;
+  font-size: smaller;
 }
 
 @media (max-width: 660px) {
@@ -112,8 +112,8 @@
     flex-direction: column;
   }
   .release-addendum > .label {
-    width: 100%;
     border-width: 3px 3px 0 3px;
+    width: 100%;
   }
   .release-addendum-content {
     border-width: 0 3px 3px 3px;

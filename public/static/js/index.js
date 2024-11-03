@@ -36,7 +36,9 @@ const lines = [
   ["fast", "frustrating", "fun"],
   ["a looking", "around", "simulator"],
   ["meow", "meow", "meow"],
-  ["got the", "dna of", "gothic lemons"]
+  ["got the", "dna of", "gothic lemons"],
+  ["mountains", "beyond", "mountains"],
+  ["i'm moving", "past the", "feeling"]
 ]
 
 const line = lines[Math.floor(Math.random() * lines.length)];
