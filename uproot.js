@@ -156,7 +156,7 @@ async function getPalettes() {
     if (theme.type === "dark") {
       styles[".decsinc-logo"] = ["filter: invert();"]
     } else {
-      styles[".release-main, .release-listen-date"] = ["color: var(--bg);"]
+      styles[".release"] = ["color: var(--bg);"]
     }
     // extra options
     styles["a:not(.nu)"].push(

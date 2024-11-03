@@ -4,7 +4,6 @@
 .release {
   display: flex;
   flex-direction: column;
-  color: var(--bg);
 }
 .release-info {
   display: flex;
