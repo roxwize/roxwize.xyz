@@ -6,7 +6,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 5%;
-  font-size: 9pt;
+  font-size: 1em;
   background-color: var(--bg);
   color: var(--fg);
   overflow: hidden;
