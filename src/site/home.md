@@ -34,4 +34,4 @@ This place serves as a repository to store that which piques my interest. Expect
   &nbsp;&nbsp;I was not magnificent
 </blockquote>
 
-(c) roxwize 2020&mdash;2024. Licensed under CC BY-NC 4.0.
+(c) roxwize 2020&mdash;2024. Licensed under CC BY 4.0.
