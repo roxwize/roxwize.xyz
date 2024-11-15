@@ -33,3 +33,5 @@ This place serves as a repository to store that which piques my interest. Expect
   And at once I knew<br />
   &nbsp;&nbsp;I was not magnificent
 </blockquote>
+
+(c) roxwize 2020&mdash;2024. Licensed under CC BY-NC 4.0.
