@@ -9,7 +9,7 @@ Okay. Listen. It's a mad world out there. I can't even fathom the amount of ww3 
 
 **Basically, it's hypertext BannerLink Ads**. You can embed it on your website as an &lt;iframe&gt; and tailor the links themselves to a specific category.
 
-Linked below are the instructions for embedding TRLM and adding your website to it. If something doesn't make sense to you or confuses you, please notify me via [e-mail](mailto:rx@roxwize.xyz) or [Neocities](https://neocities.org/site/hoylecake/) and I'll try to address the issue.
+Linked below are the instructions for embedding TRLM and adding your website to it. If something doesn't make sense to you or confuses you, please notify me via [e-mail](mailto:rae@roxwize.xyz) or [Neocities](https://neocities.org/site/hoylecake/) and I'll try to address the issue.
 
 [Embed](#rh-to-add-trlm-to-your-website) | [Add your website](#rh-to-add-your-website-to-trlm)
 
@@ -71,7 +71,7 @@ Remember that parameters need to be URL encoded, so `body{background:black;color
 
 ## To add your website to TRLM
 
-The simplest way to get your link added is to **[e-mail me](mailto:rx@roxwize.xyz) with the details of your link**. I don't mind how you format it, but I need to know at minimum where it links to, what text the link will display, and what [category](#rh-categories) it'll be in. It can be in multiple categories. If you need a template, refer to [Email template](#rh-email-template).
+The simplest way to get your link added is to **[e-mail me](mailto:rae@roxwize.xyz) with the details of your link**. I don't mind how you format it, but I need to know at minimum where it links to, what text the link will display, and what [category](#rh-categories) it'll be in. It can be in multiple categories. If you need a template, refer to [Email template](#rh-email-template).
 
 If a category you want your website to be in doesn't exist then include it regardless and I'll consider adding it.
 
