@@ -3,7 +3,7 @@
   summary: This is the home of roxwize!!
 ---
 
-Hi, this is <span class="t3t3">roxwize</span>. I am a nonbinary [purple-ish cat-rabbit](me.html) who sucks at programming. This is my website, and I love you!
+Hi, this is <span class="t3t3">roxwize</span>. I am a [purple-ish cat-rabbit](me.html) who sucks at programming. This is my website, and I love you!
 
 This place serves as a repository to store that which piques my interest. Expect me to inject my ramblings into here regularly, as well as put stuff that I've made for you to use/interact with. You can talk to/yell at me on [my Neocities profile](https://neocities.org/site/hoylecake). The source code for the website is on GitHub at [roxwize/roxwize.xyz](https://github.com/roxwize/roxwize.xyz) and on Sourcehut at [~roxwize/roxwize.xyz](https://sr.ht/~roxwize/roxwize.xyz/).
 
