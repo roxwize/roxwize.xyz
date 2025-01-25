@@ -19,26 +19,24 @@ a {
   display: flex;
   position: absolute;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-start;
   width: 100%;
   height: 100%;
+  text-align: right;
+  right: 2em;
+  top: 2em;
 }
 #logo {
-  text-decoration: underline;
   font-family: "t3t3", monospace;
-  font-size: 17.5vw;
+  font-size: 32pt;
 }
 #logo:hover {
   color: var(--fg);
 }
-#splashtop {
+#flavortext, #etc {
   font-family: "t3t3", monospace;
-  font-size: 5vw;
-}
-#splashbtm {
-  font-family: "t3t3", monospace;
-  font-size: 5vw;
+  font-size: 12pt;
 }
 .hidden {
   display: none;
