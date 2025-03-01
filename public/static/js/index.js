@@ -50,7 +50,8 @@ const lines = [
   ["pinky and", "pepper forever", "and ever"],
   ["hold", "your", "color"],
   ["we were", "fated to", "pretend"],
-  ["no need to ask", "my name to figure", "out how cool i am"]
+  ["no need to ask", "my name to figure", "out how cool i am"],
+  ["sewerslvt", "is", "not", "breakcore"] // fuck you
 ]
 
 const line = lines[Math.floor(Math.random() * lines.length)];
