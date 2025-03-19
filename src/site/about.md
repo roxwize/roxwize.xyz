@@ -7,7 +7,7 @@
 
 <div class="mood">Currently feeling <a href="https://www.imood.com/users/hoylecake"><img src="https://moods.imood.com/display/uname-hoylecake/fg-181c3/trans-1/imood.gif" alt="The current mood of hoylecake at www.imood.com" border="0"></a></div>
 
-This is Rae speaking. Late 16s, American (unfortunately). That's all you need to know.
+This is Rae speaking. Late 16s, American (unfortunately). My gender is a null pointer exception. That's all you need to know.
 
 Rae is a pseudonym. I have a real name that I've always used since I was 0, and it is not a deadname so use whatever you want. I like sugar cookies and fruit smoothies. And I love you. Very very much.
 
