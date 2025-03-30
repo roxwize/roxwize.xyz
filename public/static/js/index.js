@@ -36,7 +36,6 @@ const lines = [
   ["turn it on", "tune it in", "and stay inert"],
   ["this", "dread", "circumference"],
   ["like", "spinning", "plates"],
-  ["you'll catch", "a jpeg to", "the head"],
   ["i", "love", "rivulet"],
   ["now", "i can", "hibernate!"],
   ["meow", "meow", "meow"],
@@ -51,7 +50,10 @@ const lines = [
   ["hold", "your", "color"],
   ["we were", "fated to", "pretend"],
   ["no need to ask", "my name to figure", "out how cool i am"],
-  ["sewerslvt", "is", "not", "breakcore"] // fuck you
+  ["sewerslvt", "is", "not", "breakcore"], // fuck you
+  ["i hit", "the bottom", "and escape"],
+  ["peace", "and", "love"],
+  ["in the end", "none of this", "is real"]
 ]
 
 const line = lines[Math.floor(Math.random() * lines.length)];
