@@ -1,12 +1,3 @@
 {
-  "home": "/site/home.html",
-  "about": "/site/about.html",
-  "webring": "/site/decsinc.html",
-  "blog": {
-    "thoughts": "/diary/",
-    "music": "/site/music.html"
-  },
-  "projects": {
-    "trlm": "/site/trlm.html"
-  }
+
 }
