@@ -1,0 +1,109 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="og:title" content="decsinc &lt;- roxwize"><meta name="theme-color" content="#896498"><link rel="stylesheet" href="/static/css/main.css"><link rel="webmention" href="https://webmention.io/roxwize.xyz/webmention"><title>decsinc &mdash; roxwize.xyz</title><link rel="stylesheet" href="../static/css/decsinc.css"></head><body><header><a href="/"><img id="logo" src="/static/img/logo.svg"></a><nav><ul><li><a href="/site/artwork.html">artwork</a></li><li><a href="/site/software.html">software</a></li><li class="nav-parent"><a href="/site/decsinc.html">webring</a></li><li><a href="/site/about.html">about</a></li></ul><ul></ul></nav></header><main><img src="/static/img/decsinc/decsinc.png" alt="decsinc Logo" style="max-width:75%;">
+
+<h1 id="-an-unassuming-webring-for-humans-and-non-humans-who-believe-less-is-more">An unassuming webring for humans and non-humans who believe less is more.</h1>
+<p><a href="#-members">View Members</a></p>
+<p><strong>--O++</strong> (aka <strong>decsinc</strong>) is an unassuming webring for humans and non-humans who believe <strong>less is more</strong>. It&#39;s for individuals expressing themselves in creative (or non-creative) ways, in opposition to or in favor of the corporate Internet, anyone that is open or shut, anything that is new or old. All are welcome and all are appreciated, minimalist sites are preferred but maximalist ones and the stuff vaguely in-between are free to join too.</p>
+<p>It&#39;s designed to where you don&#39;t have to be limited by it. Just embed it somewhere visible in your site (preferably the index page) and you can display it in whatever way you want to as long as it keeps the <code>-- O ++</code> motif. Use the above &quot;Branding Image&quot; for reference, but you&#39;re not limited to just those four examples.</p>
+<p>The logo sorta looks like a face so if you want to make a mascot from that you are more than welcome to.</p>
+<h2 id="-joining">Joining</h2>
+<p>Joining the webring is a three-step process.</p>
+<ol>
+<li><a href="#rh-design-your-icon">Design your icon</a>.</li>
+<li><a href="#rh-shoot-me-an-e-mail">Shoot me an e-mail</a>.</li>
+<li><a href="#rh-embed-it-on-your-site">Embed it on your site</a>.</li>
+</ol>
+<h3 id="-design-your-icon">Design your icon</h3>
+<p>The center of the <code>-- O ++</code> doesn&#39;t have to be a plain black square, it can also be used to identify your site. Your icon should be a 1-bit (one foreground and background color) square image in the size of either 5x5px or 10x10px.</p>
+<img src="/static/img/decsinc/icons.png" alt="Icon example" style="max-width:75%;">
+
+<p>It should be unique between websites (you can use the examples above as long as they haven&#39;t been used already), if it conflicts with another website&#39;s icon I&#39;ll let you know. Although, websites are listed according to their icon in the list at the bottom of this page, so eyeing it should be enough.</p>
+<p>Once you&#39;re done convert it to binary. Start from the top left, and for every pixel of your icon put a 1 if it&#39;s the foreground color and a 0 for the background color, with a space for every new line. E.g. the left example image would be <code>01110 11101 11111 11111 01110</code>.</p>
+<p>If you want an icon make sure you can actually display it. <strong>Having an icon is strongly encouraged. I am willing to help you if you can&#39;t display it or don&#39;t know how.</strong></p>
+<h3 id="-shoot-me-an-e-mail">Shoot me an e-mail</h3>
+<p>Now <a href="mailto:rae@roxwize.xyz">email me</a> that you want your site added. You should give the the link to the page <em>that decsinc will be embedded on</em>, not just your site&#39;s index page. Remember to include the binary data for the icon you created (if you have one).</p>
+<p>After awhile I&#39;ll add your site to the ring in a &quot;standby&quot; mode until you add the embed to your website, then I&#39;ll make it active and navigable. Email me when you add the embed so I know when to switch it over to the active mode.</p>
+<h3 id="-embed-it-on-your-site">Embed it on your site</h3>
+<p>The way that you embed decsinc is up to you! The only guidelines are that there must be:</p>
+<ul>
+<li>a <code>--</code> on the left that leads to the previous page (<code>https://roxwize.xyz/ext/decsinc/prev.html?id=[YOUR PAGE ID]</code>)</li>
+<li>your website&#39;s icon, or a blank square (can be outlined, filled, dotted, etc. as well as have rounded corners) inbetween the <code>--</code> and <code>++</code> <em>that leads to <a href="https://roxwize.xyz/site/decsinc.html">this page</a></em>. If you have an icon you need to display it here. It can be visualized in any way you see fit as long as it clearly matches the one on record (i.e. it&#39;s not hard to identify, so stuff like ASCII art or rounded corners is fine). If you don&#39;t have an icon then you can use anything you want in place of the symbol.</li>
+<li>a <code>++</code> on the right that leads to the next page (<code>https://roxwize.xyz/ext/decsinc/next.html?id=[YOUR PAGE ID]</code>)</li>
+</ul>
+<p>If you have any questions about embedding it, don&#39;t know how to, or anything of that sort, <a href="mailto:rae@roxwize.xyz">email me</a> and I&#39;ll help you out in whatever way I can.</p>
+<h4 id="-embed-examples">Embed examples</h4>
+<p>Here&#39;s a plaintext example that doesn&#39;t support displaying your icon:</p>
+<pre><code class="language-html">&lt;a href=&quot;https://roxwize.xyz/ext/decsinc/prev.html?id=[YOUR PAGE ID]&quot;&gt;--&lt;/a&gt;
+&lt;a href=&quot;https://roxwize.xyz/site/decsinc.html&quot;&gt;O&lt;/a&gt;
+&lt;a href=&quot;https://roxwize.xyz/ext/decsinc/next.html?id=[YOUR PAGE ID]&quot;&gt;++&lt;/a&gt;
+</code></pre>
+<div class="example">
+  <a href="https://roxwize.xyz/ext/decsinc/prev.html?id=0">--</a>
+  <a href="https://roxwize.xyz/site/decsinc.html">O</a>
+  <a href="https://roxwize.xyz/ext/decsinc/next.html?id=0">++</a>
+</div>
+
+<p>Here&#39;s an example with images that does support displaying your icon as long as you edit the center square&#39;s image to match it. If you&#39;re going to use this, please save the example images to your website and link to them instead.</p>
+<pre><code class="language-html">&lt;style&gt;
+  .decsinc &gt; a {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+  }
+  .decsinc &gt; a:hover {
+    filter: invert(1);
+  }
+&lt;/style&gt;
+&lt;div class=&quot;decsinc&quot;&gt;
+  &lt;a href=&quot;https://roxwize.xyz/ext/decsinc/prev.html?id=[YOUR PAGE ID]&quot;&gt;
+    &lt;img src=&quot;/static/img/decsinc/dec.png&quot; alt=&quot;previous&quot; /&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://roxwize.xyz/site/decsinc.html&quot;&gt;
+    &lt;img src=&quot;/static/img/decsinc/s.png&quot; alt=&quot;decsinc&quot; /&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://roxwize.xyz/ext/decsinc/next.html?id=[YOUR PAGE ID]&quot;&gt;
+    &lt;img src=&quot;/static/img/decsinc/inc.png&quot; alt=&quot;next&quot; /&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+</code></pre>
+<div class="example">
+<style>
+  .decsinc > a {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+  }
+  .decsinc > a:hover {
+    filter: invert(1);
+  }
+</style>
+<div class="decsinc">
+  <a href="https://roxwize.xyz/ext/decsinc/prev.html?id=0" class="nu">
+    <img src="/static/img/decsinc/dec.png" alt="previous">
+  </a>
+  <a href="https://roxwize.xyz/site/decsinc.html" class="nu">
+    <img src="/static/img/decsinc/s.png" alt="decsinc">
+  </a>
+  <a href="https://roxwize.xyz/ext/decsinc/next.html?id=0" class="nu">
+    <img src="/static/img/decsinc/inc.png" alt="next">
+  </a>
+</div>
+</div>
+
+<h2 id="-members">Members</h2>
+<ul class="decsinc-sites"><li class="decsinc-site" data-id="0"><a href="https://roxwize.xyz"><canvas class="decsinc-logo" data-rows="00000 11110 10010 10010 11111" width="80" height="80"></canvas>roxwize.xyz</a></li><li class="decsinc-site" data-id="1"><a href="https://rslp.org/~omr"><canvas class="decsinc-logo" data-rows="" width="80" height="80"></canvas>rslp.org/~omr</a></li><li class="decsinc-site" data-id="2"><a href="https://interestingzinc.xyz"><canvas class="decsinc-logo" data-rows="01110 10001 10101 10101 01110" width="80" height="80"></canvas>interestingzinc.xyz</a></li><li class="decsinc-site" data-id="3"><a href="https://blog.darylsun.page"><canvas class="decsinc-logo" data-rows="0000000000 0110000000 0101000100 0101001010 0101001000 0101001110 0101000010 0110001010 0000000100 0000000000" width="80" height="80"></canvas>blog.darylsun.page</a></li></ul><script>document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll("canvas").forEach((el) => {
+        const rows = el.dataset.rows.split(" ");
+        const iconSize = rows.length;
+
+        const ctx = el.getContext("2d");
+        const pixelSize = el.width / iconSize;
+        for (let y = 0; y < rows.length; y++) {
+            const pixels = rows[y].split("");
+            for (let x = 0; x < pixels.length; x++) {
+                if (pixels[x] === "1") ctx.fillRect(x * pixelSize, y * pixelSize, pixelSize, pixelSize);
+            }
+        }
+    });
+});</script><p>01F05</p></main></body></html>

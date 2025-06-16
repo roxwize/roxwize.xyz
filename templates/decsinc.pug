@@ -1,0 +1,30 @@
+extends site.pug
+
+block append head
+    link(rel="stylesheet", href="../static/css/decsinc.css")
+
+block append content
+    ul.decsinc-sites
+        for site, idx in data
+            if site.mode === "active"
+                li.decsinc-site(data-id=idx)
+                    a(href=`https://${site.href}`)
+                        canvas.decsinc-logo(data-rows=site.icon ? site.icon.join(" ") : "",width=80,height=80)
+                        //- Don't really like how this has to be done twice
+                        | #{site.text || site.href.substring(0, site.href.indexOf("/") < 0 ? site.href.length : site.href.indexOf("/"))}
+    script.
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelectorAll("canvas").forEach((el) => {
+                const rows = el.dataset.rows.split(" ");
+                const iconSize = rows.length;
+
+                const ctx = el.getContext("2d");
+                const pixelSize = el.width / iconSize;
+                for (let y = 0; y < rows.length; y++) {
+                    const pixels = rows[y].split("");
+                    for (let x = 0; x < pixels.length; x++) {
+                        if (pixels[x] === "1") ctx.fillRect(x * pixelSize, y * pixelSize, pixelSize, pixelSize);
+                    }
+                }
+            });
+        });

@@ -1,0 +1,10 @@
+{
+	".": [ "index.html", {
+		"artwork": [ "artwork.html", {} ],
+		"software": [ "software.html", {
+			"mipilin": [ "mipilin.html", {} ]
+		} ],
+		"webring": [ "decsinc.html", {} ],
+		"about": [ "about.html", {} ]
+	}]
+}

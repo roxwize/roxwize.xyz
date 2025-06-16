@@ -1,1 +1,69 @@
+body {
+	font-family: "DejaVu Sans Mono", monospace;
+	font-size: 9pt;
+}
+header {
+	float: left;
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+nav ul {
+	list-style: none;
+	padding-inline: 0;
+	min-width: 72px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.nav-parent {
+	font-style: italic;
+}
+#logo {
+	width: 240px;
+}
+main {
+	float: right;
+	text-align: right;
+	max-width: 50%;
+}
+blockquote {
+	margin: 0;
+	padding-right: 1em;
+	opacity: 0.5;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
 
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #010108;
+		color: #dbe1ff;
+	}
+	#logo, .decsinc-logo {
+		filter: invert(1);
+	}
+	a {
+		color: #a6afdb;
+	}
+	blockquote {
+		border-right-color: #dbe1ff;
+	}
+}
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: #dbe1ff;
+		color: #000021;
+	}
+	a {
+		color: #6f7698;
+	}
+	blockquote {
+		border-right-color: #000021;
+	}
+}

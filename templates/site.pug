@@ -3,16 +3,38 @@ html(lang="en")
 	head
 		meta(charset="UTF-8")
 		meta(name="viewport", content="width=device-width, initial-scale=1.0")
-		script(src="https://code.jquery.com/jquery-3.6.1.min.js")
 		block head
 			meta(name="og:title", content=`${title} <- roxwize`)
 			if gm.summary
 				meta(name="og:description", content=gm.summary)
 			meta(name="theme-color", content="#896498")
-			link(rel="stylesheet", href="../static/css/main.css")
+			link(rel="stylesheet", href="/static/css/main.css")
 			link(rel="webmention", href="https://webmention.io/roxwize.xyz/webmention")
-			title #{title} &lt;- roxwize
+			title #{title} &mdash; roxwize.xyz
 	body
-		#main
+		header
+			a(href="/")
+				img#logo(src="/static/img/logo.svg")
+			nav
+				- const n = gm.sect || ".";
+				mixin nav(n, l)
+					ul
+						for [k, v] of Object.entries(nav[n].v[1])
+							li(class=k===l?"nav-parent":"")
+								a(href="/site/"+v[0])= k
+				//- I think i should get shot for this
+				if nav[n].p
+					if nav[nav[n].p].p
+						if nav[nav[nav[n].p].p].p && nav[n].v[1] !== {}
+							+nav(nav[nav[nav[n].p].p].p, nav[nav[n].p].p)
+						if nav[nav[n].p].p
+						+nav(nav[nav[n].p].p, nav[n].p)
+					+nav(nav[n].p, n)
+				if nav[n].v[1] !== {}
+					+nav(n)
+
+		main
 			block content
 				| !{content}
+			if gm.upd
+				p= gm.upd

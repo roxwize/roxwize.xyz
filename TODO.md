@@ -1,7 +1,6 @@
 # roxwize.xyz todo list
 
 - [ ] Add a 404 page!!! seriously!!!!
-- [x] maybe dont use jquery to embed sidebars on pages and instead just put it on there manually. updating the sidebar
-      will update literally everything else on the website in turn but i just dont fucking care.
-- [ ] music player. every website has it
-
+- [ ] before you get this website out make sure every page that currently exists has a decent amount of content, and create pages for navbar links that dont exist
+- [ ] Copyright footer
+- [ ] Make it look nicer (inspiration: https://theki.club/ https://juneish.neocities.org/site/archive/)
