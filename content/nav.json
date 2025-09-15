@@ -5,6 +5,9 @@
 			"mipilin": [ "mipilin.html", {} ]
 		} ],
 		"webring": [ "decsinc.html", {} ],
-		"about": [ "about.html", {} ]
+		"about": [ "about.html", {
+			"buttons": [ "buttons.html", {} ]
+		} ]
 	}]
 }
+

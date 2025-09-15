@@ -4,3 +4,5 @@
 - [ ] before you get this website out make sure every page that currently exists has a decent amount of content, and create pages for navbar links that dont exist
 - [ ] Copyright footer
 - [ ] Make it look nicer (inspiration: https://theki.club/ https://juneish.neocities.org/site/archive/)
+- [ ] you should write some pages on like. 3d maths ie making a rasterizer/software renderer
+

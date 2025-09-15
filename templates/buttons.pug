@@ -1,0 +1,9 @@
+extends site.pug
+
+block append content
+	for sect of data
+		div(style="margin-bottom:16px;")
+			for button of sect
+				a(href=button.l,title=button.t)
+					img(src=`/static/img/btns/${button.i}`,width=88,height=31,alt=button.t)
+

@@ -4,6 +4,10 @@ body {
 }
 header {
 	float: left;
+	position: fixed;
+}
+header > span {
+	display: block;
 }
 nav {
 	display: flex;
@@ -29,7 +33,7 @@ a:hover {
 }
 main {
 	float: right;
-	text-align: right;
+	text-align: left;
 	max-width: 50%;
 }
 blockquote {
@@ -38,6 +42,14 @@ blockquote {
 	opacity: 0.5;
 	border-right-width: 1px;
 	border-right-style: solid;
+	text-align: right;
+}
+.index-list {
+	list-style-type: none;
+	padding-left: 0;
+}
+.index-list ul {
+	padding-inline-start: 2em;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -67,3 +79,4 @@ blockquote {
 		border-right-color: #000021;
 	}
 }
+

@@ -23,11 +23,11 @@ function get_levels(n, p) {
 	const start = new Date();
 	const _nav = JSON.parse((await fs.readFile("content/nav.json")).toString("utf-8"));
 	const nav = get_levels(_nav);
+	const template = pug.compileFile("templates/site.pug");
 
 	const content = await glob("content/**/*.md");
 	for (let filePath of content) {
 		if (path.extname(filePath) !== ".md") continue;
-		// This is use case agnostic probably. But it's not really used at the moment so it might be a waste of space.
 		console.log(filePath);
 		const relativePath = filePath.replace(/[^\/]+\//, "");
 		const dir = relativePath.match(/^(?:[^\/]+\/)+/);
@@ -51,7 +51,7 @@ function get_levels(n, p) {
 				data, nav
 			});
 		} else {
-			out = pug.compileFile("templates/site.pug")({
+			out = template({
 				title: matter.data.title,
 				gm: matter.data,
 				content: md.parse(matter.content),
@@ -63,7 +63,23 @@ function get_levels(n, p) {
 			out
 		);
 	}
+	// make index page
+	const index_list = (items) => {
+		let index_content = "<ul class=\"index-list\">";
+		for (const [k, item] of Object.entries(items)) {
+			index_content += `<li><a href="${k === "." ? item[0] : "/site/" + item[0]}">${k === "." ? "home" : k}</a>${Object.keys(item[1]).length > 0 ? index_list(item[1]) : ""}</li>`;
+		}
+		index_content += "</ul>";
+		return index_content;
+	}
+	await fs.writeFile("public/sitemap.html", template({
+		title: "index",
+		gm: {},
+		content: index_list(_nav),
+		nav
+	}));
 
 	const end = new Date();
 	console.log(`Done in ${end - start}ms`);
 })();
+

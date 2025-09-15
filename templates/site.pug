@@ -10,11 +10,14 @@ html(lang="en")
 			meta(name="theme-color", content="#896498")
 			link(rel="stylesheet", href="/static/css/main.css")
 			link(rel="webmention", href="https://webmention.io/roxwize.xyz/webmention")
+			link(rel="me", href="https://github.com/roxwize")
+			link(rel="me", href="https://bsky.app/profile/roxwize.xyz")
 			title #{title} &mdash; roxwize.xyz
 	body
 		header
 			a(href="/")
 				img#logo(src="/static/img/logo.svg")
+			span so it goes
 			nav
 				- const n = gm.sect || ".";
 				mixin nav(n, l)
@@ -37,4 +40,5 @@ html(lang="en")
 			block content
 				| !{content}
 			if gm.upd
-				p= gm.upd
+				p #[em= gm.upd]
+

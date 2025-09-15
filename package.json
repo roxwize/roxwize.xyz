@@ -9,6 +9,7 @@
 	"main": "uproot.js",
 	"scripts": {
 		"build": "node uproot.js",
+		"dev": "nodemon -w . -w templates -w content -w public/static -e css,js,json,md,pug uproot.js",
 		"serve": "serve -p 1337 public/"
 	},
 	"author": "roxwize",
@@ -24,6 +25,7 @@
 	},
 	"packageManager": "pnpm@9.7.0",
 	"devDependencies": {
+		"nodemon": "^3.1.10",
 		"serve": "^14.2.4"
 	}
 }
