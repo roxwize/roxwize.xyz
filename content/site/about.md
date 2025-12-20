@@ -10,7 +10,9 @@ The purpose of this site is to act as a repository for their thoughts, creations
 
 This website runs on Neocities, and its creator runs on water, blood, and multiple internal organs working in tandem to produce some crude manifestation of their soul.
 
-The content of this website, textual and visual, is licensed under **CC BY-NC 4.0**, meaning you are free to do whatever you want with it as long as you provide appropriate attribution and don't use it for profit. I don't like copyright, and I'm putting a lot of (likely misguided) trust in the world by doing this, so please be nice. I'm willing to make select exemptions for commercial use if you so desire, just [email me](mailto:rae@roxwize.xyz).
+The content of this website, textual and visual, is licensed under **CC BY-NC 4.0**, meaning you are free to do whatever you want with it as long as you provide appropriate attribution and don't use it for profit. I don't like copyright, and I'm putting a lot of (likely misguided) trust in the world by doing this, so please be nice. I'm willing to make select exceptions for commercial use if you so desire, just contact me.
+
+If you'd like to send me an email then specify the recipient as spam [at] roxwize.xyz, with 'rae' in place of 'spam'.
 
 ![personal button](/static/img/button_live.png)
 
